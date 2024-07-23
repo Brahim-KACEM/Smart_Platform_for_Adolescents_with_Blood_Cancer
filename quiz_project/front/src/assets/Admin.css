@@ -1,0 +1,72 @@
+/* Admin.css */
+
+.admin-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .admin-table th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  
+  .admin-table td button {
+    margin-right: 8px;
+  }
+  
+  .update-form {
+    margin-bottom: 16px;
+  }
+  
+  .update-input {
+    margin-right: 8px;
+    padding: 4px;
+  }
+  
+  .update-submit-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .add-submit-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  
+  }
+  
+  .update-button {
+    padding: 8px 16px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+  }
+
+  

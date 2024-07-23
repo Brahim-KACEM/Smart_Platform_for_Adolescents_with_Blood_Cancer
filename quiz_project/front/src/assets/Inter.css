@@ -1,0 +1,15 @@
+.inter-container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .inter-text {
+    top : 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Alkatra', cursive;
+  }
+  

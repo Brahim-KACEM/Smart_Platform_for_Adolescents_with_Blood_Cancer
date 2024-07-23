@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/design.css') }}">
+    <title>Input Image With Preview Image</title>
+</head>
+<body>
+
+<!-- Début du message pour les adolescents -->
+<div class="support-message">
+    <p>Nous sommes avec vous, chers combattants! Votre courage nous inspire tous.<br>
+        Ensemble, nous sommes une communauté de soutien, prête à vous entourer de notre amour et de notre solidarité.<br>
+        Continuez à vous battre avec force et détermination,<br>
+        car nous croyons en votre capacité à surmonter chaque défi qui se présente sur votre chemin.</p>
+</div>
+<!-- Fin du message pour les adolescents -->
+
+<div class="container">
+    <input type="file" id="file" accept="image/*" hidden>
+    <div class="img-area" data-img="">
+        <i class='bx bxs-cloud-upload icon'></i>
+        <h3>Upload Image</h3>
+        <p>Image size must be less than <span>2MB</span></p>
+    </div>
+    <button class="select-image">Select Image</button>
+	
+    <!-- Bouton de soumission caché par défaut -->
+	<div id="loading-message">Patientez quelques secondes...</div> <!-- Ajout du message de patience -->
+	<br> <br>
+    <button id="submit-button" class="submit-button" hidden>Submit</button>
+</div>
+<script src="{{ url_for('static', filename='javascript/javas.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.course-support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .box-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .box-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .box-description {
+    font-size: 16px;
+  }
+  

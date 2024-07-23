@@ -1,0 +1,54 @@
+.video-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .video-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .description-container {
+    flex: 1;
+  }
+  
+  .description-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description-container p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .description-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .description-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .description-time {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 5px;
+  }
+  
+  .description-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .description-link a:hover {
+    text-decoration: underline;
+  }
+  

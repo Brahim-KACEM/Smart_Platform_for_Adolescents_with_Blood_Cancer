@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Chatbot </title>
+  <link rel="shortcut icon" href="static/img/mhcicon.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/Navbar.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="static/img/logo.png" alt="Logo" class="logo" />
+
+     
+      <button
+        class="navbar-button"
+       
+      >
+        <a href="http://localhost:3000/support" class="nav-link">Support</a>
+      </button>
+
+
+      
+      <button
+        class="navbar-button"
+        
+      >
+        <a href="http://localhost:3000/home" class="nav-link">Home</a>
+      </button>
+    </div>
+    <div class="navbar-right">
+      <button
+        class="navbar-button navbar-button-sign"
+        
+      >
+        <a href="http://localhost:3000/signupparent" class="nav-link">Parent</a>
+      </button>
+      
+      <button
+        class="navbar-button navbar-button-sign"
+       
+      >
+        <a href="http://localhost:3000/signupkid" class="nav-link">Sign Up</a>
+      </button>
+      
+      <button
+        class="navbar-button navbar-button-login"
+       
+      >
+        <a href="http://localhost:3000/login" class="nav-link">Login</a>
+      </button>
+    </div>
+  </nav>
+  <!-- partial:index.partial.html -->
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+          Chatbot 
+      </div>
+    </header>
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(static/img/mhcicon.jpg)"></div>
+        
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name"> Chatbot </div>
+          
+            <script>
+              function updateTime() {
+                var now = new Date();
+                var hours = now.getHours();
+                var minutes = now.getMinutes();
+                var seconds = now.getSeconds();
+                var timeString = hours + ':' + minutes;
+                document.getElementById('clock').textContent = timeString;
+              }
+              setInterval(updateTime, 1000);
+            </script>
+            <div class="msg-info-time"><time id="clock"></time></div>
+
+
+
+
+          </div>
+          <div class="msg-text">
+            Salut là-bas! 👋 je suis ici pour t'accompagner dans ton parcours face au cancer du sang. 🌟 Je sais que ça peut être difficile, mais tu n'es pas seul(e). Que dirais-tu de discuter un peu pour partager tes pensées, poser des questions ou simplement parler de ce que tu ressens en ce moment? 💬 N'hésite pas à me dire comment je peux t'aider aujourd'hui. 🌈💕          </div>
+        </div>
+      </div>
+    </main>
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" id="textInput" placeholder="Saisissez votre message ici...">
+      
+      <button type="submit" class="msger-send-btn">Envoyer</button>
+    </form>
+  </section>
+  <!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script>
+    const msgerForm = get(".msger-inputarea");
+    const msgerInput = get(".msger-input");
+    const msgerChat = get(".msger-chat");
+    // Icons made by Freepik from www.flaticon.com
+    const BOT_IMG = "static/img/mhcicon.jpg";
+    const PERSON_IMG = "static/img/person.webp";
+    const BOT_NAME = "Chatbot";
+    const PERSON_NAME = "You";
+    msgerForm.addEventListener("submit", event => {
+      event.preventDefault();
+      const msgText = msgerInput.value;
+      if (!msgText) return;
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+      msgerInput.value = "";
+      botResponse(msgText);
+    });
+    function appendMessage(name, img, side, text, redirect_to_quiz) {
+  const delay = 50; // Délai entre chaque lettre en millisecondes
+  const msgBubble = document.createElement("div");
+  msgBubble.classList.add("msg-bubble");
+  const msgInfo = document.createElement("div");
+  msgInfo.classList.add("msg-info");
+  const msgInfoName = document.createElement("div");
+  msgInfoName.classList.add("msg-info-name");
+  msgInfoName.textContent = name;
+  const msgInfoTime = document.createElement("div");
+  msgInfoTime.classList.add("msg-info-time");
+  msgInfoTime.textContent = formatDate(new Date());
+  const msgText = document.createElement("div");
+  msgText.classList.add("msg-text");
+  msgInfo.appendChild(msgInfoName);
+  msgInfo.appendChild(msgInfoTime);
+  msgBubble.appendChild(msgInfo);
+  const msg = document.createElement("div");
+  msg.classList.add("msg", side + "-msg");
+  const msgImg = document.createElement("div");
+  msgImg.classList.add("msg-img");
+  msgImg.style.backgroundImage = "url(" + img + ")";
+  const msgTextContainer = document.createElement("div");
+  msgTextContainer.classList.add("msg-text-container");
+  msgBubble.appendChild(msgTextContainer);
+  msg.appendChild(msgImg);
+  msg.appendChild(msgBubble);
+  msgerChat.appendChild(msg);
+  console.log("Redirect to quiz in appendmessage:", redirect_to_quiz);
+
+  if (redirect_to_quiz) {
+    // Afficher le texte complet sans lettre par lettre
+    msgTextContainer.innerHTML = text;
+  } else {
+    // Afficher le texte lettre par lettre
+    const characters = text.split('');
+    characters.forEach((char, index) => {
+      setTimeout(() => {
+        msgTextContainer.textContent += char;
+      }, delay * index);
+    });
+  }
+  msgerChat.scrollTop += msgerChat.scrollHeight;
+}
+
+
+function botResponse(rawText) {
+  // Bot Response
+  $.get("/get", { msg: rawText }).done(function (data) {
+    console.log(rawText);
+    console.log(data);
+    const botResponse = data.bot_response;
+    const redirect_to_quiz = data.redirect_to_quiz;
+    console.log("Redirect to quiz in botresponse:", redirect_to_quiz);
+
+  
+    // Vérifier si l'utilisateur doit être redirigé vers le quiz
+    if (redirect_to_quiz) {
+      // Créer un lien HTML pour rediriger vers le quiz
+      const link = '<p>Cliquez <a href="http://localhost:3000/quizhadd" target="_blank">ici</a> pour répondre au quiz.</p>';
+
+      // Ajouter le lien au message
+      appendMessage(BOT_NAME, BOT_IMG, "left", link, redirect_to_quiz);
+    }
+      // Afficher la réponse du chatbot
+     else  {appendMessage(BOT_NAME, BOT_IMG, "left", botResponse, redirect_to_quiz);}
+
+  });
+}
+
+
+
+    // Utils
+    function get(selector, root = document) {
+      return root.querySelector(selector);
+    }
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+    
+  </script>
+   <script>
+    // Récupérer l'URL actuelle
+    const currentUrl = window.location.href;
+    
+    // Envoyer l'URL au serveur Flask lors du chargement de la page
+    $(document).ready(function() {
+      $.ajax({
+        type: 'GET',
+        url: '/saveUrl',
+        data: { url: currentUrl },
+        success: function(response) {
+          console.log('URL envoyée avec succès au serveur.');
+          console.log('Données envoyées au serveur:', currentUrl);
+        },
+        error: function(error) {
+          console.error('Erreur lors de l\'envoi de l\'URL au serveur :', error);
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

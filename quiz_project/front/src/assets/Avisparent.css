@@ -1,0 +1,67 @@
+.avis-parent-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 500px;
+    
+
+  }
+  
+  .avis-parent-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .avis-parent-left {
+    width: 50%;
+  }
+  
+  .avis-parent-right {
+    width: 50%;
+  }
+  
+  .avis-parent-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .check-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .parent-image {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .parent-text {
+  
+    font-family: 'Alkatra', cursive;
+    font-size: 50px;
+  }
+  
+  .parent-description {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 5px;
+  }
+  .inter-container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .inter-text {
+    top : 400px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Alkatra', cursive;
+  }

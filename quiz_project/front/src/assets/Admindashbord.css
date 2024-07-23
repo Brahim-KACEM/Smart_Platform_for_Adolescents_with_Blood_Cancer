@@ -1,0 +1,31 @@
+.admin-dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.admin-block {
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px;
+  flex: 1; /* Pour que les blocs prennent autant d'espace l'un que l'autre */
+}
+
+.admin-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 60%; /* Pour que le lien occupe toute la largeur du bloc */
+}
+
+.admin-link:hover {
+  background-color: #3071a9;
+}

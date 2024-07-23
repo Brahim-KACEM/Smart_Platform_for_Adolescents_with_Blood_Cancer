@@ -1,0 +1,74 @@
+
+.tete {
+  color: #fff;
+  padding-top: 10vw;
+  padding-bottom: 30vw;
+  text-align: center;
+  height: 300px;
+}
+
+/* Style pour le conteneur SVG */
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Style pour les transitions de SVG */
+.svg path {
+  transition: .1s;
+}
+
+/* Style pour les transitions SVG au survol */
+.svg:hover path {
+  d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+}
+
+/* Nouveaux styles pour le contenu de l'en-tête */
+.header-content {
+  display: flex;
+  justify-content: space-between; /* Alignement des éléments sur les côtés */
+  align-items: center; /* Alignement vertical des éléments */
+}
+
+/* Style pour le contenu texte */
+.text-content {
+  width: 50%; /* Largeur de 50% pour occuper la moitié gauche */
+  padding: 0 20px; /* Ajout de padding pour l'espacement */
+}
+
+/* Style pour le contenu image */
+.image-content {
+  width: 50%; /* Largeur de 50% pour occuper la moitié droite */
+  padding: 0 20px; /* Ajout de padding pour l'espacement */
+}
+.image-content img {
+  border-radius: 20%; /* Rendre l'image circulaire */
+}
+/* Style pour l'image */
+.image-content img {
+  max-width: 100%; /* Assurer que l'image ne dépasse pas la largeur du conteneur */
+  height: auto; /* Garder le rapport hauteur/largeur de l'image */
+}
+/* Ajouter ce CSS à votre fichier Header.css */
+.button-container {
+  text-align: center;
+  margin-top: 20px; /* Ajoutez la marge supérieure souhaitée */
+}
+
+.our-work-text {
+  display: inline-block;
+  padding: 30px 40px; /* Ajustez le rembourrage comme désiré */
+  background-color: #50c6d8; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  font-size: 20px;
+  border-radius: 8px; /* Ajoutez des coins arrondis */
+  cursor: pointer; /* Curseur de pointeur pour indiquer l'interactivité */
+  transition: background-color 0.3s; /* Ajoutez une transition pour une animation fluide */
+}
+
+.our-work-text:hover {
+  background-color: #3eaab8; /* Couleur de fond au survol */
+}

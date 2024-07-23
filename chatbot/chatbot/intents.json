@@ -1,0 +1,1151 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Coucou",
+        "Hello",
+        "Hey",
+        "Yo",
+        "Bonsoir",
+        "Salutations",
+        "Hi there",
+        "Bonjour à tous",
+        "Salut les amis",
+        "Coucou tout le monde"
+      ],
+      "responses": [
+        "Bonjour! Comment puis-je vous aider aujourd'hui ?",
+        "Salut! En quoi puis-je vous assister ?",
+        "Coucou! Je suis là pour répondre à vos questions.",
+        "Hello! Comment puis-je vous assister ?",
+        "Hey! Besoin d'aide pour quelque chose ?",
+        "Yo! Que puis-je faire pour vous ?",
+        "Bonsoir! Comment puis-je vous être utile ?",
+        "Salutations! En quoi puis-je vous assister aujourd'hui ?",
+        "Hi there! Comment puis-je vous aider ?",
+        "Bonjour à tous! Que puis-je faire pour vous ?",
+        "Salut les amis! Besoin d'aide ?",
+        "Coucou tout le monde! Comment puis-je vous assister ?"
+      ]
+    }
+,   
+{
+  "tag": "bot_purpose",
+  "patterns": [
+    "Que fais-tu ?",
+    "Quel est ton but ?",
+    "À quoi sers-tu ?",
+    "Que peux-tu faire ?",
+    "Quelle est ta fonction ?",
+    "Quels sont tes services ?",
+    "Pourquoi es-tu là ?",
+    "Que sais-tu faire ?"
+  ],
+  "responses": [
+    "Je suis un chatbot conçu pour fournir des informations et du soutien aux personnes concernées par le cancer du sang. Vous pouvez me poser des questions sur la maladie, les traitements, le soutien émotionnel et bien plus encore.",
+    "Mon objectif est d'aider les personnes touchées par le cancer du sang en fournissant des réponses aux questions, des ressources et un soutien émotionnel. N'hésitez pas à me demander tout ce qui vous préoccupe.",
+    "Je suis là pour fournir des informations et du soutien aux personnes touchées par le cancer du sang. Vous pouvez poser des questions sur la maladie, les traitements, la gestion des émotions et bien d'autres sujets connexes.",
+    "Mon rôle est de fournir des informations précises et un soutien émotionnel aux personnes concernées par le cancer du sang. N'hésitez pas à me poser des questions sur tout ce qui vous concerne.",
+    "Je suis un chatbot conçu pour offrir des informations et du soutien aux personnes touchées par le cancer du sang. N'hésitez pas à me demander tout ce qui vous préoccupe à ce sujet."
+  ]
+}
+,
+{
+  "tag": "gratitude",
+  "patterns": [
+    "Merci beaucoup",
+    "Je vous suis reconnaissant",
+    "C'est très gentil de votre part",
+    "Je vous remercie",
+    "Merci pour votre aide",
+    "Je suis reconnaissant",
+    "Merci infiniment"
+  ],
+  "responses": [
+    "De rien! Je suis là pour vous aider.",
+    "C'est un plaisir de pouvoir vous aider.",
+    "Vous êtes les bienvenus. N'hésitez pas si vous avez d'autres questions.",
+    "Je suis content d'avoir pu vous être utile. N'hésitez pas à revenir si vous avez besoin de plus d'informations.",
+    "Avec plaisir! N'hésitez pas à me solliciter si vous avez besoin d'autre chose.",
+    "Je suis heureux d'avoir pu vous aider. N'hésitez pas à revenir si vous avez d'autres questions.",
+    "Je suis là pour ça! N'hésitez pas à me poser des questions à tout moment."
+  ]
+}
+,
+{
+  "tag": "confirmation",
+  "patterns": [
+    "D'accord",
+    "Très bien",
+    "Ok",
+    "Entendu",
+    "Parfait",
+    "Je comprends",
+    "C'est bon",
+    "Je suis d'accord"
+  ],
+  "responses": [
+    "Parfait! N'hésitez pas à me poser d'autres questions si vous en avez.",
+    "Super! N'hésitez pas à me contacter si vous avez besoin d'aide supplémentaire.",
+    "Très bien. N'hésitez pas à me demander si quelque chose reste flou pour vous.",
+    "D'accord! Si vous avez d'autres questions, je suis là pour vous aider.",
+    "Entendu! N'hésitez pas à me solliciter si vous avez besoin de plus d'informations.",
+    "Bien compris! N'hésitez pas à me contacter si vous avez d'autres questions.",
+    "Ok, n'hésitez pas à revenir vers moi si vous avez besoin d'aide supplémentaire.",
+    "Parfait, je suis là si vous avez d'autres questions ou besoin d'assistance."
+  ]
+}
+,
+{
+  "tag": "insatisfaction",
+  "patterns": [
+    "Je ne suis pas satisfait",
+    "Je ne suis pas d'accord",
+    "Ce n'est pas ce que je voulais savoir",
+    "Ce n'est pas la réponse que j'attendais",
+    "Je ne suis pas convaincu",
+    "Je ne suis pas content",
+    "Ça ne répond pas à ma question",
+    "Je suis déçu"
+  ],
+  "responses": [
+    "Je suis désolé que ma réponse ne vous ait pas satisfait. Pouvez-vous me donner plus de détails sur ce que vous attendiez?",
+    "Je comprends que ma réponse puisse ne pas répondre entièrement à vos attentes. Comment puis-je vous aider davantage?",
+    "Je suis là pour vous aider. Si ma réponse ne vous convient pas, n'hésitez pas à préciser ce que vous cherchez.",
+    "Désolé pour la confusion. N'hésitez pas à reformuler votre question ou à spécifier ce que vous recherchez.",
+    "Je suis ici pour vous aider. Si vous avez besoin de plus de détails ou d'une explication différente, faites-le moi savoir.",
+    "Je suis désolé que vous ne soyez pas satisfait. N'hésitez pas à me poser d'autres questions ou à clarifier vos préoccupations.",
+    "Je suis là pour vous aider. Si ma réponse ne répond pas à vos attentes, n'hésitez pas à me le faire savoir et je ferai de mon mieux pour vous aider.",
+    "Je comprends votre frustration. N'hésitez pas à me dire ce que vous attendiez afin que je puisse mieux répondre à vos besoins."
+  ]
+}
+
+,
+    {
+      "tag": "denial",
+      "patterns": [
+        "Ce n’est pas possible, pas cela, pas moi, pas maintenant !",
+        "Ça ne peut pas être vrai",
+        "Pourquoi moi, exactement ?",
+        "Pourquoi moi ?",
+        "Pourquoi cela ?",
+        "Pourquoi maintenant ? ",
+        "Est-ce que c'est vraiment arrivé ?",
+        "Est-ce que cela peut être une erreur ?",
+        "Comment puis-je nier la réalité de cette situation ?",
+        "Y a-t-il une chance que ce ne soit pas vrai ?",
+        "Pourquoi cela arrive-t-il maintenant ?",
+        "C’est injuste"
+      ],
+      "responses": [
+        "Je comprends que cela puisse être extrêmement difficile à accepter. Prenez votre temps pour traiter cette nouvelle et rappelez-vous que vous n'êtes pas seul. Nous sommes ici pour vous soutenir à chaque étape du chemin."
+      ]
+    },
+    {
+      "tag": "physical_reaction",
+      "patterns": [
+        "Je me suis sentie flageoler sur mes jambes, j’ai dû m’asseoir",
+        "C’est comme si le ciel me tombait sur la tête",
+        "J’en ai eu le souffle coupé",
+        "Un gouffre s’ouvrait sous mes pieds"
+      ],
+      "responses": [
+        "Prenez un moment pour respirer profondément. Ce que vous ressentez est tout à fait normal face à une nouvelle aussi bouleversante. Nous sommes là pour vous soutenir et vous accompagner dans ce voyage. N'hésitez pas à vous reposer sur nous lorsque vous en avez besoin."
+      ]
+    },
+    {
+      "tag": "confusion",
+      "patterns": [
+        "Pourquoi tout semble si étrange et désorientant en ce moment ?",
+        "Est-ce que quelqu'un d'autre se sent aussi confus que moi ?",
+        "Pourquoi tout semble si déroutant et chaotique ?",
+        "Pourquoi tout semble si flou en ce moment ?",
+        "Pourquoi tout semble si difficile à saisir en ce moment ?",
+        "Je n’entendais rien de ce qui se disait, j’étais dans le brouillard"
+      ],
+      "responses": [
+        "Il est compréhensible que vous vous sentiez confus en ce moment. Nous sommes là pour vous écouter, vous soutenir et vous guider à travers cette période de confusion. N'hésitez pas à poser des questions et à exprimer vos préoccupations.",
+        "Prenez un moment pour respirer profondément et comprendre que la confusion que vous ressentez est une réaction normale à une situation difficile. Nous sommes là pour vous aider à trouver de la clarté et à vous accompagner dans cette période de confusion.",
+        "C'est tout à fait compréhensible de se sentir ainsi lorsque l'incertitude et la peur vous submergent. Nous sommes ici pour vous aider à dissiper ce brouillard et à trouver des informations et un soutien qui vous aideront à traverser cette période difficile."
+      ]
+    },
+    {
+      "tag": "impossibility",
+      "patterns": [
+        "Non, c’est impossible",
+        "impossible",
+        "Ça ne peut pas être vrai"
+      ],
+      "responses": [
+        "Je sais que cela peut sembler insurmontable en ce moment, mais je suis là pour vous dire que vous avez la force et le courage nécessaires pour traverser cette épreuve. Ensemble, nous trouverons des moyens de surmonter ces défis."
+      ]
+    },
+    {
+      "tag": "doctor_trust",
+      "patterns": [
+        "Il s’est trompé de dossier",
+        "Je n’ai jamais eu confiance en lui, je vais en consulter un autre",
+        "Est-ce possible que le médecin ait commis une erreur dans mon dossier médical ?",
+        "Comment puis-je savoir si je peux faire confiance à mon médecin actuel ?",
+       "Est-il courant que les médecins se trompent dans les dossiers des patients ?"
+      ],
+      "responses": [
+        "Les erreurs médicales sont rares mais peuvent arriver. Il est important de communiquer ouvertement avec votre équipe médicale et de demander des explications si vous avez des préoccupations concernant votre dossier médical.",
+        "Je comprends que vous puissiez ressentir cela. Parfois, des erreurs peuvent se produire, mais il est important de discuter de vos préoccupations avec votre médecin pour clarifier la situation.",
+        "Il est tout à fait normal de ressentir de la méfiance dans une situation aussi délicate. Il est essentiel que vous vous sentiez à l'aise et en confiance avec votre équipe médicale. Si vous avez des doutes, il est judicieux de consulter un autre professionnel de la santé."
+      ]
+    },
+    {
+      "tag": "bleood_cancer_dfinition",
+      "patterns": [
+        "Qu'est-ce que le cancer du sang ?"
+      ],
+      "responses": [
+        "Le cancer du sang, également connu sous le nom de cancer hématologique, est une maladie  qui affecte les cellules sanguines. C'est une période un peu difficile lorsque vous entendez parler de ce diagnostic. Il est important de se rappeler que vous n'êtes pas seul dans ce combat. Nous sommes ici pour vous fournir le soutien, les ressources et les informations dont vous avez besoin pour traverser cette période .De nombreuses personnes ont vaincu cette maladie et sont aujourd'hui en rémission, ce qui est une source d'espoir et d'inspiration pour ceux qui sont en traitement"
+ ]
+    },
+    {
+      "tag": "need_for_information",
+      "patterns": [
+        "J’avais soif d’information",
+        "Je veux en savoir plus sur ma maladie",
+        "Comment puis-je obtenir des informations sur mon traitement ?"
+      ],
+      "responses": [
+        "Il est tout à fait naturel de vouloir comprendre et obtenir des informations lorsque vous êtes confronté à cette situation médicale . Vous êtes sur la bonne voie pour trouver les réponses dont vous avez besoin. Nous sommes ici pour vous accompagner dans votre quête de compréhension et pour fournir le soutien dont vous avez besoin.",
+        "C'est important de vouloir en apprendre davantage sur votre condition médicale. Nous sommes là pour vous fournir des informations fiables et pour répondre à toutes vos questions concernant votre maladie. N'hésitez pas à nous contacter à tout moment."
+      ]
+    },
+    {
+      "tag": "treatment_refusal",
+      "patterns": [
+        "je refusais de me faire soigner",
+        "Je ne voulais pas suivre le traitement médical.",
+        "Je luttais contre l'idée de recevoir des soins médicaux.",
+        "Je résistais à l'idée de commencer un traitement médical.",
+        "Je refusais de consentir à tout type de traitement médical.",
+        "Je repoussais l'idée de recevoir des soins médicaux."
+      ],
+      "responses": [
+        "Il est compréhensible de ressentir de l'appréhension ou de la réticence à l'égard du traitement. Cependant, il est crucial de comprendre que suivre le traitement recommandé peut jouer un rôle essentiel dans votre rétablissement. Nous sommes ici pour vous soutenir à chaque étape du processus et pour vous aider à trouver la force et le courage nécessaires pour entreprendre ce voyage vers la guérison."
+      ]
+    },
+    {
+      "tag": "life_challenges",
+      "patterns": [
+        "Pourquoi les choses tournent toujours mal pour moi ?",
+        "Pourquoi tout va mal pour moi ?",
+        "Est-ce que je suis maudit ? Rien ne semble jamais aller comme je le souhaite.",
+        "Pourquoi tout tourne mal pour moi au moment où ça va mieux ?"
+      ],
+      "responses": [
+        "Il est compréhensible de ressentir que les choses ne se déroulent pas comme prévu. Parfois, la vie est comme ca, mais rappelez-vous que chaque obstacle est une occasion de croissance et de résilience.",
+        "Il semble que vous traversiez une période difficile. Les hauts et les bas font partie intégrante de la vie, mais il est important de se rappeler que vous avez la force intérieure pour surmonter les défis qui se présentent à vous.",
+        "Il est naturel de se sentir découragé lorsque les choses ne se passent pas comme prévu. Mais rappelez-vous, vous n'êtes pas seul dans ce sentiment. Avec le temps, vous pouvez trouver des moyens de surmonter les obstacles et de retrouver votre positivité.",
+        "C'est difficile de faire face à des revers lorsque vous vous sentez déjà sur la bonne voie. Mais souvenez-vous, les défis peuvent aussi être des opportunités de croissance. Ensemble, nous pouvons explorer des moyens de transformer cette épreuve en une leçon précieuse."
+      ]
+    },
+    {
+      "tag": "disease_cause",
+      "patterns": [
+        "Comment cela a-t-il pu se produire ?",
+        "Qu'est-ce qui a causé ça ?",
+        "Comment ça a commencé ?",
+        "Pourquoi ça m'est arrivé ?",
+        "Comment ça a pu se produire ?",
+        "Qu'est-ce qui a déclenché ça ?"
+
+      ],
+      "responses": [
+        "Il est tout à fait naturel de se poser cette question face à un diagnostic médical. Les maladies peuvent être déclenchées par différents facteurs, parfois génétiques, parfois environnementaux.  Mais rappelez-vous que nous sommes ici pour vous aider à comprendre et à faire face à cette situation ensemble.",
+        "Il est tout à fait compréhensible de vouloir comprendre pourquoi cela vous arrive. Les maladies peuvent avoir de multiples causes, et parfois il est difficile de les expliquer complètement. Mais n'oubliez pas que vous avez une équipe médicale prête à vous aider à naviguer à travers ces questions et à trouver des réponses qui vous apaisent."      ]
+    },
+    {
+      "tag": "future_implications",
+      "patterns": [
+        "Qu'est-ce que cela signifie pour mon avenir ?",
+        "Mon avenir, c'est quoi maintenant ?",
+        "Qu'en est-il de mon futur ?",
+        "Comment cela va-t-il affecter ma vie à venir ?",
+        "Quels changements pour mon futur ?"
+      ],
+      "responses": [
+        "Il est tout à fait naturel de se demander comment cette situation affectera votre avenir. Sachez que vous n'êtes pas seul dans ce questionnement. Nous sommes ici pour vous aider à explorer les différentes voies possibles et à trouver des moyens de vous sentir confiant et soutenu dans votre parcours vers l'avenir.",
+        "Je comprends que penser à l'avenir peut être source d'anxiété. Il est normal de ressentir cela face à une situation médicale. Sachez que nous sommes là pour vous accompagner tout au long de votre parcours. Ensemble, nous pouvons explorer des stratégies pour vous aider à faire face aux défis futurs et à maintenir une perspective positive."
+
+      ]
+    },
+    {
+      "tag": "blood_cancer_treatments",
+      "patterns": [
+        "Traitements pour le cancer sanguin ?",
+        "Cancer sanguin : quelles options ?",
+        "Quelles thérapies pour le cancer sanguin ?",
+        "Options de traitement pour le cancer du sang ?",
+        "Quels sont les traitements disponibles pour le cancer du sang ?"
+      ],
+      "responses": [
+        "Il existe plusieurs options de traitement pour le cancer du sang, allant de la chimiothérapie à la thérapie ciblée et à la greffe de cellules souches. Chaque option dépend de divers facteurs tels que le type et le stade du cancer, ainsi que votre état de santé général. Il est important de discuter avec votre équipe médicale pour déterminer le meilleur plan de traitement pour vous. N'oubliez pas que vous n'êtes pas seul dans cette lutte contre la maladie. Nous sommes ici pour vous fournir un soutien émotionnel et des informations supplémentaires pour vous aider à comprendre vos options de traitement.",
+        "La prise en charge du cancer du sang peut inclure différents types de traitement, tels que la chimiothérapie, l'immunothérapie, la radiothérapie et parfois la greffe de cellules souches. Chaque personne réagit différemment aux traitements, et il est important de travailler en étroite collaboration avec votre équipe médicale pour élaborer un plan de traitement adapté à votre situation. Nous sommes là pour vous soutenir à chaque étape du traitement et répondre à vos questions concernant les options disponibles."
+      ]
+    },
+    {
+      "tag": "treatment_pain_concern",
+      "patterns": [
+        "Douleurs pendant les traitements ?",
+        "Inconfort à prévoir ?",
+        "Traitements douloureux ?",
+        "Douleurs à craindre ?",
+        "Effets douloureux des traitements ?",
+        "Est-ce que je vais avoir mal pendant les traitements ?"
+      ],
+      "responses": [
+        "Les traitements sont conçus pour minimiser les inconforts et les douleurs autant que possible. Votre équipe médicale veillera à ce que vous soyez aussi à l'aise que possible pendant chaque étape du processus. Ils sont là pour répondre à vos préoccupations et ajuster les traitements en fonction de vos besoins. Nous sommes également ici pour vous soutenir et vous aider à traverser cette période avec le moins de stress possible.",
+        "Il est compréhensible d'avoir des inquiétudes concernant les douleurs pendant les traitements. Sachez que votre équipe médicale travaille avec diligence pour atténuer toute douleur ou inconfort que vous pourriez ressentir. Ils sont là pour surveiller votre bien-être et ajuster les médicaments et les protocoles de traitement pour minimiser les effets secondaires. Nous sommes également là pour vous soutenir émotionnellement et vous accompagner tout au long de ce voyage."
+      ]
+    },
+    {
+      "tag": "daily_life_impact",
+      "patterns": [
+        "Comment cela va-t-il affecter ma vie quotidienne ?",
+        "Impact sur ma vie quotidienne ?",
+        "Conséquences sur ma routine ?",
+        "Changements à prévoir ?",
+        "Effets sur ma vie de tous les jours ?",
+        "Incidences sur mon quotidien ?"
+      ],
+      "responses": [
+        "La maladie et les traitements peuvent avoir un impact sur divers aspects de votre vie quotidienne, mais rappelez-vous que vous n'êtes pas seul dans cette situation. Votre équipe médicale est là pour vous aider à gérer les changements et à trouver des moyens d'adapter votre routine quotidienne. Nous sommes également ici pour vous soutenir émotionnellement et vous accompagner dans chaque étape de ce processus. Ensemble, nous pouvons trouver des stratégies pour maintenir votre qualité de vie pendant votre traitement.",
+        "Il est normal de s'inquiéter de l'impact de la maladie sur votre vie quotidienne. Votre équipe médicale comprend cette préoccupation et travaille avec vous pour minimiser les perturbations autant que possible. Ils peuvent vous fournir des conseils et des ressources pour gérer les effets de la maladie et des traitements sur votre vie quotidienne. Nous sommes également là pour vous écouter, vous soutenir et vous aider à trouver des solutions pratiques pour traverser cette période difficile."
+      ]
+    },
+    {
+      "tag": "hair_loss_concern",
+      "patterns": [
+        "Perte de cheveux à prévoir ?",
+        "Cheveux affectés par traitements ?",
+        "Risque de calvitie ?",
+        "Chute de cheveux possible ?",
+        "Impact sur mes cheveux ?",
+        "Est-ce que je vais perdre mes cheveux à cause des traitements ?"
+      ],
+      "responses": [
+        "La perte de cheveux peut être un effet secondaire courant de certains traitements, mais cela ne se produit pas nécessairement pour tout le monde. Votre équipe médicale pourra vous fournir des informations spécifiques sur les effets potentiels des traitements que vous allez recevoir. N'oubliez pas que nous sommes là pour vous soutenir à chaque étape du chemin, et il existe également des ressources disponibles pour aider à gérer les changements liés à la perte de cheveux.",
+        "La perte de cheveux est un effet secondaire fréquent de nombreux traitements, mais chaque personne réagit différemment. Votre équipe médicale discutera des options disponibles pour minimiser cet effet secondaire et vous fournira des conseils sur la manière de gérer la perte de cheveux, si elle se produit. Nous sommes également là pour vous offrir un soutien émotionnel et vous aider à faire face à tout changement physique que vous pourriez rencontrer pendant votre traitement."
+      ]
+    },
+    {
+      "tag": "emotional_support_concern",
+      "patterns": [
+        "Soutien émotionnel à venir ?",
+        "Comment gérer émotionnellement ?",
+        "Aide pour les émotions ?",
+        "Soutien émotionnel prévu ?",
+        "Comment affronter émotionnellement ?",
+        "Comment vais-je supporter émotionnellement cette nouvelle ?"
+      ],
+      "responses": [
+        "L'annonce d'un diagnostic peut être accablante sur le plan émotionnel, mais vous n'êtes pas seul dans ce voyage. Nous sommes ici pour vous soutenir tout au long de cette période difficile. Il est important de vous entourer de personnes de confiance, de vous exprimer et de trouver des moyens sains de faire face à vos émotions. N'hésitez pas à vous tourner vers votre équipe médicale et vos proches pour obtenir le soutien dont vous avez besoin.",
+        "Il est normal de ressentir une gamme d'émotions après avoir reçu un tel diagnostic. Nous sommes là pour vous écouter, vous soutenir et vous aider à trouver des stratégies pour faire face à vos sentiments. Rappelez-vous qu'il n'y a pas de bonne ou de mauvaise façon de réagir, et que vous êtes capable de traverser cette période avec force et résilience. Nous sommes là pour vous accompagner à chaque étape du chemin."
+      ]
+    },
+    {
+      "tag": "healing_certainty",
+      "patterns": [
+        "Est-ce que je vais guérir ?",
+        "Chances de guérison ?",
+        "Pronostic de guérison ?",
+        "Perspectives de rétablissement ?",
+        "Probabilité de guérison ?",
+        "Je vais m'en sortir ?"
+      ],
+      "responses": [
+        "Nous croyons fermement en votre capacité à guérir. Avec le soutien de votre équipe médicale, votre engagement envers le traitement et votre force intérieure, nous sommes confiants que vous pouvez surmonter cette épreuve. N'oubliez pas que nous sommes là pour vous soutenir à chaque étape de votre rétablissement.",
+        "La guérison est un voyage, et nous sommes ici pour vous accompagner tout au long du chemin. Avec des soins médicaux appropriés, un soutien émotionnel et votre propre détermination, vous avez de grandes chances de guérir. Nous croyons en votre force et nous sommes là pour vous aider à atteindre votre objectif de guérison."
+      ]
+    },
+    {
+      "tag": "social_life_during_treatment",
+      "patterns": [
+        "École et amis pendant les traitements ?",
+        "Activités sociales pendant traitements ?",
+        "Vie sociale durant traitements ?",
+        "Sorties avec amis durant traitements ?",
+        "Études et amitiés pendant traitements ?",
+        "Puis-je continuer à aller à l'école ou à voir mes amis pendant les traitements ?"
+      ],
+      "responses": [
+        "Oui, il est important de maintenir une certaine normalité dans votre vie quotidienne autant que possible pendant les traitements. Vous devriez essayer de rester connecté avec vos amis et poursuivre vos activités habituelles, mais il est également important de vous écouter et de prendre soin de vous-même. Votre équipe médicale pourra vous conseiller sur la manière de gérer vos activités sociales tout en suivant votre plan de traitement.",
+        "Absolument, il est essentiel de maintenir un équilibre dans votre vie pendant les traitements. Aller à l'école et passer du temps avec vos amis peut vous apporter du soutien et vous aider à vous sentir mieux. Votre équipe médicale peut vous aider à trouver des moyens de gérer votre emploi du temps et de maintenir une routine qui fonctionne pour vous. Nous sommes là pour vous soutenir dans votre parcours vers la guérison et pour vous accompagner dans vos activités quotidiennes."
+      ]
+    },
+    {
+      "tag": "explaining_illness_to_family_friends",
+      "patterns": [
+        "Comment puis-je expliquer la maladie à mes amis et à ma famille ?"
+      ],
+      "responses": [
+        "Expliquer maladie à famille ?",
+        "Expliquer situation à proches ?",
+        "Dire amis sur maladie ?",
+        "Comment informer proches maladie ?",
+        "Maladie aux amis et famille ?",
+        "Expliquer la maladie à vos amis et à votre famille peut sembler difficile, mais il est important de les impliquer et de les informer. Vous pouvez leur expliquer la maladie aussi simplement que possible, en utilisant des mots qui conviennent à leur niveau de compréhension. Soyez honnête sur ce que vous ressentez et sur ce à quoi vous pouvez vous attendre pendant le traitement. Ils peuvent vous apporter un soutien précieux tout au long de votre parcours de guérison.",
+        "Il est normal de se sentir incertain lorsqu'il s'agit d'expliquer une maladie à ses proches, mais rappelez-vous que l'honnêteté et la communication ouverte sont essentielles. Vous pouvez aborder le sujet de manière calme et rassurante, en partageant autant d'informations que vous le souhaitez. Vos amis et votre famille sont là pour vous soutenir, et ensemble, vous pouvez traverser cette épreuve avec force et unité."
+      ]
+    },
+    {
+      "tag": "treatment_side_effects_management",
+      "patterns": [
+        "Effets secondaires des traitements ?",
+        "Gestion des effets secondaires ?",
+        "Comment gérer les effets secondaires ?",
+        "Traitements et effets indésirables ?",
+        "Effets secondaires à prévoir ?",
+        "Quels sont les effets secondaires des traitements et comment les gérer ?"
+      ],
+      "responses": [
+        "Les effets secondaires des traitements peuvent varier en fonction du type de traitement que vous recevez. Votre équipe médicale vous informera sur les effets secondaires possibles et vous donnera des conseils sur la manière de les gérer. Il est essentiel de communiquer ouvertement avec votre équipe médicale sur tout ce que vous ressentez, afin qu'ils puissent ajuster votre traitement si nécessaire. Ensemble, nous pouvons travailler pour minimiser les effets secondaires et optimiser votre qualité de vie pendant votre traitement.",
+        "Votre équipe médicale sera en mesure de vous fournir des informations détaillées sur les effets secondaires potentiels de vos traitements spécifiques, ainsi que des stratégies pour les gérer au mieux. Il est important de signaler tout effet secondaire à votre équipe médicale dès qu'il se manifeste, afin qu'ils puissent vous offrir un soutien et des conseils appropriés. Nous sommes là pour vous aider à traverser cette période et à faire en sorte que votre parcours vers la guérison soit aussi confortable que possible."
+      ]
+    },
+    {
+      "tag": "participation_activities_during_treatment",
+      "patterns": [
+        "Sport possible pendant traitements ?",
+        "Activités loisirs pendant traitements ?",
+        "Participer sport pendant traitements ?",
+        "Pratique sportive pendant traitements ?",
+        "Activités possibles pendant traitements ?",
+        "Est-ce que je peux participer à des activités normales comme le sport ou les loisirs ?"
+      ],
+      "responses": [
+        "Oui, dans la mesure du possible, il est important de continuer à participer à des activités qui vous plaisent pendant les traitements. Cependant, il est également important de consulter votre équipe médicale pour obtenir des conseils spécifiques sur les types d'activités qui conviennent à votre état de santé. Nous sommes là pour vous soutenir dans vos choix et vous aider à trouver un équilibre entre le maintien de votre bien-être et la participation à des activités.",
+        "Absolument, il est tout à fait possible de continuer à participer à des activités normales telles que le sport ou les loisirs pendant les traitements. Votre équipe médicale peut vous aider à déterminer quelles activités sont sûres et bénéfiques pour vous. Nous vous encourageons à poursuivre vos passions et à maintenir un mode de vie actif dans la mesure du possible."
+      ]
+    },
+    {
+      "tag": "mental_preparation_for_treatment",
+      "patterns": [
+        "Préparation mentale pour traitements ?",
+        "Émotionnellement prêt pour traitements ?",
+        "Mental avant traitements ?",
+        "Conseils avant traitements ?",
+        "Comment se préparer aux traitements ?",
+        "Comment puis-je me préparer mentalement et émotionnellement aux traitements ?"
+      ],
+      "responses": [
+        "Vous pouvez vous préparer mentalement et émotionnellement aux traitements en restant ouvert à l'aide professionnelle et au soutien de vos proches. La méditation, la thérapie, et d'autres pratiques d'autogestion du stress peuvent également être bénéfiques. Rappelez-vous que vous avez une équipe de professionnels de la santé prêts à vous aider à traverser cette épreuve et que vous êtes entouré d'amour et de soutien.",
+        "La préparation mentale et émotionnelle aux traitements peut inclure des techniques de gestion du stress, comme la méditation et la relaxation, ainsi que la recherche d'un soutien émotionnel auprès de vos proches et d'un professionnel de la santé. Gardez à l'esprit que votre attitude positive et votre détermination peuvent jouer un rôle crucial dans votre rétablissement. Nous croyons en votre capacité à traverser cette période difficile et à retrouver la santé."
+      ]
+    },
+    {
+      "tag": "improve_healing_chances",
+      "patterns": [
+        "Comment favoriser guérison ?",
+        "Actions pour améliorer guérison ?",
+        "Guérison optimisée possible ?",
+        "Comment aider guérison ?",
+        "Y a-t-il des choses que je peux faire pour améliorer mes chances de guérison ?"
+      ],
+      "responses": [
+        "Absolument, votre attitude et votre mode de vie peuvent jouer un rôle important dans votre processus de guérison. En adoptant des habitudes saines telles qu'une alimentation équilibrée, un bon sommeil, la pratique d'exercices légers si votre médecin le permet, et la gestion du stress peuvent contribuer à renforcer votre système immunitaire et à favoriser votre rétablissement. Vous pouvez également rester positif, rester en contact avec vos proches et suivre les recommandations de votre équipe médicale.",
+        "Oui, il existe des mesures que vous pouvez prendre pour soutenir votre processus de guérison. En prenant soin de votre corps et de votre esprit, en suivant attentivement les instructions de votre équipe médicale, en restant positif et en trouvant des moyens de vous détendre et de rester connecté avec vos proches, vous pouvez renforcer votre système immunitaire et améliorer vos chances de guérison. Nous sommes là pour vous soutenir et vous guider à chaque étape de ce voyage vers la guérison."
+      ]
+    },
+    {
+      "tag": "fear_and_uncertainty_management",
+      "patterns": [
+        "Comment puis-je gérer la peur et l'incertitude ?",
+        "Gérer peur et incertitude ?",
+        "Comment faire face à la peur ?",
+        "Conseils pour gérer incertitude ?",
+        "Gérer émotions pendant traitement ?",
+        "Trouver calme dans peur ?"
+      ],
+      "responses": [
+        "La peur et l'incertitude sont des sentiments tout à fait normaux dans cette situation. Pour les gérer, il est important de vous entourer de soutien, de pratiquer des techniques de relaxation et de vous concentrer sur les aspects positifs de votre vie. Gardez à l'esprit que vous n'êtes pas seul dans ce combat et que nous sommes là pour vous accompagner à chaque étape du chemin. Rappelez-vous également que vous êtes fort et capable de surmonter ces défis. Nous croyons en votre capacité à guérir et à vous rétablir complètement.",
+        "La gestion de la peur et de l'incertitude peut être difficile, mais vous êtes plus fort que vous ne le pensez. Pour y faire face, trouvez des moyens de vous exprimer, que ce soit par la conversation, l'écriture ou d'autres formes d'expression. En outre, prenez le temps de vous concentrer sur votre bien-être mental et émotionnel en pratiquant des activités qui vous apportent du réconfort et de la tranquillité d'esprit. Vous avez le pouvoir de surmonter ces sentiments et de trouver la paix intérieure pendant votre parcours vers la guérison."
+      ]
+    },
+    {
+      "tag": "support_during_treatment",
+      "patterns": [
+        "Qui peut m'aider et écouter ?",
+        "Aide et soutien disponibles ?",
+        "Entourage pour parler de mes sentiments ?",
+        "À qui me confier pendant cette épreuve ?",
+        "Besoin de parler, à qui s'adresser ?",
+        "Qui peut m'aider à traverser cette épreuve et à qui puis-je parler de mes sentiments ?"
+      ],
+      "responses": [
+        "Vous avez un réseau de soutien comprenant votre famille, vos amis, votre équipe médicale et des ressources communautaires. Ils sont là pour vous écouter, vous soutenir et vous accompagner tout au long de votre parcours. N'hésitez pas à vous tourner vers eux lorsque vous avez besoin de parler de vos sentiments ou lorsque vous avez besoin d'aide.",
+        "Vous n'êtes pas seul dans cette épreuve. Vous pouvez parler à votre famille, vos amis proches, votre équipe médicale, un conseiller ou un groupe de soutien. Ils peuvent vous aider à traverser les moments difficiles, à exprimer vos sentiments et à trouver des moyens de faire face. Rappelez-vous que vous avez le soutien dont vous avez besoin pour traverser cette période difficile et pour vous aider à guérir."
+      ]
+    }
+    ,
+    {
+      "tag": "support_resources",
+      "patterns": [
+        "Groupes de soutien disponibles ?",
+        "Ressources pour adolescents atteints de cancer ?",
+        "Aide pour les adolescents avec cancer du sang ?",
+        "Soutien pour les jeunes avec cancer sanguin ?",
+        "Où trouver des groupes de soutien pour adolescents ?",
+        "Y a-t-il des groupes de soutien ou des ressources pour les adolescents atteints de cancer du sang ?"
+      ],
+      "responses": [
+        "Absolument, il existe de nombreux groupes de soutien et ressources disponibles spécifiquement pour les adolescents atteints de cancer du sang. Votre équipe médicale pourra vous orienter vers ces ressources et vous aider à trouver des groupes de soutien où vous pourrez partager vos expériences et recevoir un soutien émotionnel. Nous sommes également là pour vous accompagner dans votre parcours et vous aider à trouver les ressources qui vous conviennent le mieux.",
+        "Oui, il existe une variété de groupes de soutien et de ressources conçus spécialement pour les adolescents atteints de cancer du sang. Ces groupes peuvent vous offrir un soutien émotionnel, des conseils pratiques et des informations sur la maladie et les traitements. Votre équipe médicale pourra vous fournir des informations sur les options disponibles et vous aider à vous connecter avec ces ressources."
+      ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "treatment_delay_reason",
+      "patterns": [
+        "Attente traitement raisons ?",
+        "Délai avant traitements pourquoi ?",
+        "Raisons attente traitement ?",
+        "Pourquoi attendre pour traitements ?",
+        "Délai avant début traitement ?",
+        "Pourquoi faut-il attendre avant de commencer les traitements ?"
+      ],
+      "responses": [
+        "Il peut y avoir plusieurs raisons pour lesquelles il faut parfois attendre avant de commencer les traitements. Cela peut inclure des tests supplémentaires pour mieux comprendre votre situation médicale, des consultations avec différents spécialistes pour élaborer le meilleur plan de traitement pour vous, ou encore des délais logistiques liés à la planification des rendez-vous et à la disponibilité des ressources médicales. L'objectif est de s'assurer que vous recevez les soins les plus appropriés et les plus efficaces pour votre condition.",
+        "Il est compréhensible que l'attente puisse sembler frustrante, mais il est important de savoir que chaque étape du processus est soigneusement planifiée pour vous offrir les meilleurs soins possibles. Les médecins prennent en compte plusieurs facteurs avant de commencer les traitements, notamment votre état de santé général, les résultats des tests et les recommandations médicales. L'objectif est de maximiser les chances de succès du traitement et de minimiser les risques pour votre santé."
+      ]
+    }
+    ,
+    {
+      "tag": "wait_time_concern",
+      "patterns": [
+        "Attente résultats et maladie pire ?",
+        "Détérioration maladie pendant attente ?",
+        "Attente et maladie aggravée ?",
+        "Maladie s'aggrave pendant attente ?",
+        "Est-ce que l'attente entre les examens et la consultation d'annonce signifie que la maladie s'aggrave pendant ce temps ?"
+      ],
+      "responses": [
+        "Non, l'attente entre les examens et la consultation d'annonce n'implique pas nécessairement une détérioration de la maladie. Cette période est souvent nécessaire pour permettre aux médecins d'analyser les résultats des tests, de consulter d'autres spécialistes si nécessaire, et de planifier le meilleur plan de traitement pour vous. Il est important de se rappeler que votre équipe médicale travaille pour votre bien-être et prendra les mesures appropriées pour assurer des soins de qualité.",
+        "Il est compréhensible de s'inquiéter pendant cette période d'attente, mais il est important de savoir que votre équipe médicale prend toutes les précautions nécessaires pour assurer votre bien-être. L'attente entre les examens et la consultation d'annonce permet aux médecins d'évaluer soigneusement votre situation médicale et de vous proposer le plan de traitement le plus approprié. Restez en contact avec votre équipe médicale pour obtenir des informations précises sur votre état de santé et les prochaines étapes à suivre."
+      ]
+    }
+    ,
+    {
+      "tag": "pre-treatment_exams",
+      "patterns": [
+        "Examens avant traitement utilité ?",
+        "Pré-traitements examens pour quoi ?",
+        "Tests avant début traitement pourquoi ?",
+        "Rôles examens avant traitements ?",
+        "Avant traitements quels tests ?",
+        "Quels sont les examens courants avant de commencer les traitements et à quoi servent-ils ?"
+      ],
+      "responses": [
+        "Avant de commencer les traitements, il est courant de passer par plusieurs examens pour évaluer votre état de santé général, identifier la nature de la maladie et planifier le traitement le plus approprié. Ces examens peuvent inclure des analyses sanguines, des imageries médicales telles que des scanners ou des IRM, des biopsies pour confirmer le diagnostic, ainsi que des évaluations de la fonction cardiaque ou pulmonaire selon les besoins. Ces examens aident les médecins à obtenir une image complète de votre condition et à prendre des décisions éclairées sur le meilleur plan de traitement à suivre.",
+        "Avant de démarrer les traitements, il est essentiel que votre équipe médicale dispose de toutes les informations nécessaires sur votre santé. Les examens préliminaires, tels que les analyses sanguines, les tests d'imagerie et les évaluations fonctionnelles, aident à évaluer votre condition et à planifier les interventions thérapeutiques les plus efficaces. Ces tests permettent également de surveiller votre réponse au traitement et d'ajuster le plan de soins si nécessaire pour garantir les meilleurs résultats."
+      ]
+    }
+    ,
+    {
+      "tag": "understanding_treatment_process",
+      "patterns": [
+        "Traitements comprendre comment ?",
+        "Déroulement traitements explication ?",
+        "Connaître processus traitements ?",
+        "Infos sur traitements besoin ?",
+        "Comment puis-je mieux comprendre le déroulement des traitements ?"
+      ],
+      "responses": [
+        "Il est tout à fait normal de vouloir comprendre le déroulement des traitements. Pour mieux comprendre, vous pouvez commencer par poser des questions à votre équipe médicale. Ils sont là pour vous guider à chaque étape du chemin et peuvent vous expliquer en détail les différentes phases du traitement, les effets secondaires potentiels et les mesures que vous pouvez prendre pour mieux les gérer. Vous pouvez également rechercher des ressources fiables en ligne ou rejoindre des groupes de soutien pour obtenir des informations et des conseils supplémentaires.",
+        "Comprendre le déroulement des traitements peut vous aider à vous sentir plus en contrôle et mieux préparé pour ce qui vous attend. N'hésitez pas à poser des questions à votre équipe médicale et à leur faire part de vos préoccupations. Ils peuvent vous fournir des informations personnalisées sur votre plan de traitement, ainsi que des ressources et des outils pour vous aider à mieux comprendre et gérer votre condition. Nous sommes là pour vous soutenir dans votre parcours vers la guérison."
+      ]
+    },
+    {
+      "tag": "managing_fear_and_anxiety",
+      "patterns": [
+        "Gérer peur et anxiété début traitements ?",
+        "Contrôler peur et anxiété traitements ?",
+        "Stratégies contre peur traitements ?",
+        "Réduire anxiété début traitements ?",
+        "Face à la peur avant traitements ?",
+        "Comment puis-je gérer la peur et l'anxiété liées à l'idée de commencer les traitements ?"
+      ],
+      "responses": [
+        "Il est normal de ressentir de la peur et de l'anxiété face à l'idée de commencer les traitements, mais il existe des stratégies que vous pouvez utiliser pour vous aider à faire face à ces émotions. Prenez le temps de vous exprimer et de partager vos sentiments avec vos proches, trouvez des activités relaxantes qui vous apportent du réconfort, comme la méditation ou le yoga, et rappelez-vous que vous n'êtes pas seul dans cette épreuve. Votre équipe médicale peut également vous fournir des ressources supplémentaires pour vous aider à gérer votre anxiété pendant cette période.",
+        "La peur et l'anxiété sont des réactions normales face à une situation stressante comme le début des traitements. Pour vous aider à faire face à ces émotions, concentrez-vous sur ce que vous pouvez contrôler, comme votre attitude et vos activités quotidiennes. Prenez également le temps de vous informer sur votre plan de traitement et posez des questions à votre équipe médicale pour dissiper les incertitudes. Rappelez-vous que nous sommes là pour vous soutenir et vous accompagner dans ce voyage vers la guérison."
+      ]
+    }
+    
+    , 
+    {
+      "tag": "common_side_effects",
+      "patterns": [
+        "Effets traitements cancer du sang ?",
+        "Symptômes traitements cancer sanguin ?",
+        "Traitements cancer sang effets ?",
+        "Effets secondaires traitements cancer sanguin ?",
+        "Cancer sang traitements effets secondaires ?",
+        "Quels sont les effets secondaires courants des traitements contre le cancer du sang ?"
+      ],
+      "responses": [
+        "Les effets secondaires des traitements contre le cancer du sang varient selon le type de traitement et la réaction individuelle de chaque personne. Cependant, certains effets secondaires courants peuvent inclure la fatigue, les nausées, la perte d'appétit, la perte de cheveux, les infections et les saignements. Il est important de se rappeler que tous les effets secondaires ne se produisent pas chez tout le monde, et votre équipe médicale peut vous aider à gérer ces effets secondaires et à vous sentir aussi à l'aise que possible pendant votre traitement.",
+        "Les effets secondaires des traitements contre le cancer du sang peuvent être différents pour chaque personne et dépendent du type de traitement reçu. Certains effets secondaires courants comprennent la fatigue, les nausées, les douleurs corporelles, la perte de cheveux et les changements dans la numération sanguine. Votre équipe médicale surveillera étroitement votre état de santé et vous fournira des conseils sur la gestion des effets secondaires afin de garantir que votre traitement se déroule aussi confortablement que possible."
+      ]
+    }
+    
+    ,
+    {
+      "tag": "treatment_options",
+      "patterns": [
+        "Traitements proposés ?",
+        "Options de traitement ?",
+        "Propositions traitement ?",
+        "Choix traitements ?",
+        "Possibilités traitement ?",
+        "Quelles sont les options de traitement qui me sont proposées ?"
+      ],
+      "responses": [
+        "Les options de traitement qui vous sont proposées dépendent de plusieurs facteurs, y compris le type et le stade de votre maladie, votre état de santé général et vos préférences personnelles. Votre équipe médicale discutera avec vous des différentes options disponibles, telles que la chimiothérapie, la radiothérapie, l'immunothérapie ou la greffe de moelle osseuse. Ils travailleront avec vous pour élaborer un plan de traitement personnalisé qui répond le mieux à vos besoins.",
+        "Votre équipe médicale évaluera soigneusement votre cas et vous présentera les options de traitement qui sont les plus appropriées dans votre situation. Ils vous expliqueront les avantages et les inconvénients de chaque option, ainsi que les effets secondaires potentiels, pour vous aider à prendre une décision éclairée. Nous sommes ici pour vous soutenir et répondre à toutes vos questions sur les traitements disponibles."
+      ]
+    }
+    ,
+    {
+      "tag": "acceptance_of_treatments",
+      "patterns": [
+        "Accepter traitements et examens ?",
+        "Comment mieux accepter traitements ?",
+        "Stratégies pour accepter traitements ?",
+        "Conseils pour accepter examens ?",
+        "Accepter examens et traitements mieux ?",
+        "Que puis-je faire pour mieux accepter les examens et les traitements ?"
+      ],
+      "responses": [
+        "Il est tout à fait normal de ressentir de l'anxiété ou de l'appréhension à l'idée des examens et des traitements. Pour mieux les accepter, vous pouvez envisager des techniques de relaxation telles que la respiration profonde, la méditation ou le yoga. Parler à un thérapeute ou rejoindre un groupe de soutien peut également vous aider à exprimer vos émotions et à trouver du réconfort auprès d'autres personnes partageant des expériences similaires.",
+        "Accepter les examens et les traitements peut être un défi, mais vous n'êtes pas seul dans ce voyage. Prenez le temps de vous informer sur votre condition et sur les procédures médicales associées. Faites appel à votre réseau de soutien, que ce soit votre famille, vos amis ou votre équipe médicale, pour obtenir de l'aide et du réconfort. Rappelez-vous que chaque étape que vous franchissez vous rapproche un peu plus vers votre guérison."
+      ]
+    }
+    ,
+    {
+      "tag": "side_effects_concern",
+      "patterns": [
+        "Effets traitements ?",
+        "Risques traitements ?",
+        "Maladie traitements ?",
+        "Effets indésirables traitements ?",
+        "Santé traitements ?",
+        "Est-ce que les traitements vont me rendre malade ?"
+      ],
+      "responses": [
+        "Les traitements peuvent parfois causer des effets secondaires, mais votre équipe médicale travaillera avec vous pour minimiser ces effets autant que possible. Ils vous fourniront des conseils sur la gestion des effets secondaires et peuvent prescrire des médicaments pour vous aider à les gérer. Rappelez-vous que chaque personne réagit différemment aux traitements, et il est important de signaler tout effet secondaire à votre équipe médicale afin qu'ils puissent vous aider.",
+        "Il est compréhensible d'avoir des préoccupations concernant les effets secondaires des traitements, mais sachez que votre équipe médicale fera de son mieux pour vous soutenir tout au long du processus. Ils seront là pour répondre à vos questions, vous fournir des informations sur les effets secondaires possibles et vous aider à gérer tout malaise que vous pourriez ressentir. Notre objectif est de vous aider à traverser cette période de traitement avec le moins de perturbations possible."
+      ]
+    }
+    ,
+    {
+      "tag": "preparing_for_treatment",
+      "patterns": [
+        "Organisation avant traitements ?",
+        "Préparation début traitements ?",
+        "Planification entrée traitements ?",
+        "Comment me préparer pour traitements ?",
+        "Préparation avant traitement ?",
+        "Comment puis-je m'organiser pour préparer mon entrée dans les traitements ?"
+      ],
+      "responses": [
+        "Il est tout à fait normal de se sentir un peu dépassé par l'idée de commencer les traitements, mais il existe plusieurs façons de vous organiser et de vous préparer. Vous pouvez commencer par créer une liste des questions que vous souhaitez poser à votre équipe médicale, organiser votre emploi du temps et vos responsabilités pour tenir compte des traitements, et demander de l'aide à vos proches pour vous accompagner lors des rendez-vous. Prenez également le temps de prendre soin de vous et de gérer votre stress autant que possible.",
+        "Se préparer à commencer les traitements peut être une période stressante, mais il y a des moyens de vous aider à vous sentir mieux préparé. Essayez de rester organisé en notant les rendez-vous médicaux, en préparant une liste des questions à poser à votre équipe soignante et en mettant en place un système de soutien avec vos proches. N'oubliez pas de prendre également soin de votre bien-être émotionnel et physique pendant cette période. Nous sommes là pour vous soutenir et répondre à toutes vos questions."
+      ]
+    }
+    
+    , 
+    {
+      "tag": "quality_of_life_during_treatment",
+      "patterns": [
+        "Améliorer qualité vie pendant traitements ?",
+        "Options pour bien-être pendant traitements ?",
+        "Conseils pour vivre mieux pendant traitements ?",
+        "Améliorer confort pendant traitements ?",
+        "Qualité vie pendant traitements ?",
+        "Y a-t-il des choses que je peux faire pour améliorer ma qualité de vie pendant les traitements ?"
+      ],
+      "responses": [
+        "Absolument ! Il existe plusieurs moyens de prendre en charge votre bien-être pendant les traitements. Assurez-vous de bien suivre les recommandations de votre équipe médicale en matière de nutrition, d'exercice et de repos. De plus, n'hésitez pas à explorer des techniques de gestion du stress telles que la méditation, le yoga ou la thérapie par l'art pour vous aider à vous détendre et à rester positif. N'oubliez pas que nous sommes là pour vous soutenir à chaque étape de votre parcours.",
+        "Certainement ! Vous avez un rôle important à jouer dans l'amélioration de votre qualité de vie pendant les traitements. Assurez-vous de maintenir une alimentation saine et équilibrée, de rester actif autant que possible et de vous accorder suffisamment de repos et de détente. Il peut également être bénéfique de vous entourer de soutien émotionnel, que ce soit par le biais de votre famille, de vos amis ou de groupes de soutien. Nous sommes ici pour vous fournir des conseils et des ressources pour vous aider à rester aussi confortable et positif que possible pendant cette période."
+      ]
+    }
+    ,
+    {
+      "tag": "emotional_impact_of_treatments",
+      "patterns": [
+        "Gérer émotions traitements ?",
+        "Impact traitements émotionnel ?",
+        "Traitements et bien-être émotionnel ?",
+        "Répercussions émotionnelles traitements ?",
+        "Gérer émotions pendant traitements ?",
+        "Comment puis-je gérer les répercussions émotionnelles des traitements sur mon image corporelle et ma vie quotidienne ?"
+      ],
+      "responses": [
+        "Il est normal de ressentir des émotions complexes lorsque l'on traverse une période de traitement. Prendre soin de votre bien-être émotionnel est tout aussi important que le traitement physique. Vous pouvez trouver un soutien dans la famille et les amis, rejoindre des groupes de soutien, pratiquer la méditation ou d'autres activités qui vous apaisent. N'oubliez pas que vous êtes plus que votre image corporelle, et vous avez la force de surmonter ces défis.",
+        "Les traitements peuvent avoir un impact émotionnel sur vous, mais il existe des moyens de gérer ces sentiments. Parlez ouvertement à votre équipe médicale de vos préoccupations et cherchez un soutien auprès de professionnels de la santé mentale si nécessaire. Vous pouvez également explorer des techniques de relaxation, comme la respiration profonde ou la visualisation, pour vous aider à vous sentir plus calme et centré. Vous n'êtes pas seul dans ce voyage, et il y a toujours de l'aide disponible."
+      ]
+    }
+    
+    , 
+    {
+      "tag": "social_activities_during_treatment",
+      "patterns": [
+        "Sorties possibles pendant traitements ?",
+        "Contacts sociaux pendant traitements ?",
+        "Activités autorisées pendant traitements ?",
+        "Rencontres amicales pendant traitements ?",
+        "Sorties avec amis permises ?",
+        "Est-ce que je peux continuer à voir mes amis et à participer à des activités pendant les traitements ?"
+      ],
+      "responses": [
+        "Pendant la période de traitement, il est recommandé de limiter les interactions sociales et les activités publiques afin de réduire le risque d'infections et de préserver votre santé. Votre médecin pourra vous donner des conseils spécifiques sur les précautions à prendre pendant cette période et sur la reprise progressive de vos activités habituelles une fois que votre système immunitaire sera plus fort. En attendant, nous sommes là pour vous soutenir et vous accompagner virtuellement.",
+        "Pendant les traitements, il est important de suivre les recommandations médicales pour protéger votre santé, ce qui peut inclure la limitation des contacts sociaux et des activités extérieures. Cependant, il existe de nombreuses façons de rester connecté avec vos amis et de participer à des activités de manière virtuelle, par téléphone ou en ligne. Nous sommes ici pour vous aider à rester en contact avec vos proches et à maintenir un soutien social pendant cette période."
+      ]
+    }
+    
+,
+{
+  "tag": "self_esteem_during_changes",
+  "patterns": [
+    "Estime de soi changements physiques ?",
+    "Confiance malgré changements physiques ?",
+    "Changements physiques estime de soi ?",
+    "Maintenir estime de soi malgré changements ?",
+    "Estime de soi face aux changements ?",
+    "Comment puis-je maintenir mon estime de soi malgré les changements physiques que je pourrais subir ?"
+  ],
+  "responses": [
+    "Maintenir votre estime de soi pendant les changements physiques peut être un défi, mais rappelez-vous que votre valeur personnelle ne dépend pas de votre apparence extérieure. Concentrez-vous sur les aspects de vous-même que vous appréciez le plus, entourez-vous de soutien et de personnes qui vous aiment pour qui vous êtes. Explorez des activités qui vous apportent de la joie et trouvez des moyens de vous exprimer d'autres façons, comme l'art, la musique ou la méditation.",
+    "Il est tout à fait normal de se sentir bouleversé par les changements physiques que vous pourriez subir, mais rappelez-vous que votre beauté et votre valeur vont bien au-delà de votre apparence extérieure. Trouvez des moyens de vous connecter à ce qui vous rend unique et spécial, et entourez-vous de personnes qui vous soutiennent et vous encouragent. N'oubliez pas que vous êtes bien plus qu'une simple apparence physique."
+  ]
+}
+
+   , 
+   {
+    "tag": "work_school_during_treatment",
+    "patterns": [
+      "Arrêt travail/école pendant traitements ?",
+      "Quand arrêter travail/école ?",
+      "Pause travail/école traitements ?",
+      "Moment arrêt travail/école ?",
+      "Arrêt activités pendant traitements ?",
+      "Quand devrais-je arrêter de travailler ou de fréquenter l'école pendant les traitements ?"
+    ],
+    "responses": [
+      "La décision d'arrêter de travailler ou de fréquenter l'école pendant les traitements dépend de plusieurs facteurs, y compris le type de traitement, vos besoins en matière de repos et de récupération, ainsi que votre état de santé général. Votre équipe médicale pourra vous conseiller sur la meilleure approche en fonction de votre situation individuelle. Il est important de vous écouter et de prendre soin de vous-même pendant cette période.",
+      "La question de savoir quand arrêter de travailler ou de fréquenter l'école pendant les traitements est complexe et dépend de votre situation personnelle. Votre équipe médicale vous aidera à évaluer vos capacités et à prendre des décisions qui garantissent votre bien-être et votre sécurité. Nous sommes là pour vous soutenir dans votre parcours et répondre à toutes vos questions concernant le travail et l'école pendant les traitements."
+    ]
+  }
+   ,
+   {
+    "tag": "self_image_during_treatment",
+    "patterns": [
+     
+      "Maquillage malgré perte cheveux ?",
+      "Port de foulards et casquettes ?"
+    ],
+    "responses": [
+      "Il est admirable de voir comment vous avez maintenu une attitude positive et une image de vous-même pendant cette période difficile. Le port de foulards, de casquettes et de jolis chapeaux montre votre force et votre style personnels.",
+      "C'est formidable de voir comment vous avez exprimé votre créativité et votre individualité en portant des foulards, des casquettes et des chapeaux. Cela montre votre détermination à rester fidèle à vous-même malgré les défis."
+    ]
+  }
+  , 
+
+
+
+
+
+
+
+
+
+
+  {
+    "tag": "return_home_between_treatments",
+    "patterns": [
+      "Quand puis-je rentrer chez moi entre deux traitements ?",
+      "Retour maison entre traitements ?",
+     "Quand rentrer chez moi ?",
+     "Pause à la maison entre traitements ?"
+    ],
+    "responses": [
+      "Il est tout à fait compréhensible que vous ayez hâte de rentrer chez vous entre deux traitements. Votre équipe médicale évaluera votre situation individuelle et vous informera du moment  pour rentrer chez vous en toute sécurité. Nous sommes là pour vous soutenir pendant cette période de transition.",
+      "Votre retour à la maison entre les traitements dépendra de votre état de santé, de la réponse aux traitements et des recommandations médicales. Nous travaillerons avec vous pour vous assurer que vous êtes suffisamment stable et en bonne santé pour rentrer chez vous. N'hésitez pas à poser toutes vos questions à votre équipe médicale.",
+      "Votre retour à la maison entre les traitements est une étape importante dans votre parcours vers la guérison. Nous vous encourageons à rester optimiste et confiant dans votre capacité à surmonter les défis. Nous sommes là pour vous fournir le soutien dont vous avez besoin pour vous sentir à l'aise et en sécurité chez vous."
+    ]
+  }
+  , 
+  {
+    "tag": "communication_with_doctor_during_treatment",
+    "patterns": [
+      "Comment puis-je rester en contact avec mon médecin traitant tout en recevant des traitements spécialisés contre le cancer ?",
+      "Contact médecin pendant traitements ?",
+      "Communiquer avec médecin pendant traitements ?",
+      "Restez en contact avec médecin traitant ?"
+     ],
+    "responses": [
+      "Il est essentiel de maintenir une communication ouverte et régulière avec votre médecin traitant tout au long de vos traitements contre le cancer. Vous pouvez convenir avec votre équipe médicale des meilleures méthodes de communication, telles que les appels téléphoniques réguliers, les courriels ou les consultations en personne. Ils sont là pour vous aider et répondre à toutes vos questions.",
+      "Votre équipe médicale comprend l'importance de rester en contact avec votre médecin traitant pendant les traitements contre le cancer. Ils peuvent vous aider à organiser des rendez-vous réguliers ou des consultations à distance pour discuter de votre état de santé, des effets secondaires éventuels et de toute autre préoccupation que vous pourriez avoir. N'hésitez pas à leur faire part de vos préférences en matière de communication.",
+      "Maintenir une communication ouverte avec votre médecin traitant pendant les traitements contre le cancer peut vous aider à vous sentir soutenu et bien pris en charge. Votre équipe médicale travaillera en collaboration avec votre médecin traitant pour garantir une coordination efficace de vos soins. N'hésitez pas à exprimer vos préoccupations et vos questions à votre équipe médicale, ils sont là pour vous aider à chaque étape du chemin."
+    ]
+  }
+  ,
+  {
+    "tag": "home_care_between_treatments",
+    "patterns": [
+      "Qu'est-ce que les soins à domicile (SAD) et comment peuvent-ils améliorer ma qualité de vie entre deux traitements ?",
+      "Soins à domicile (SAD) entre traitements ?",
+      "Avantages SAD entre traitements ?",
+      "Qualité de vie avec SAD entre traitements ?"
+    ],
+    "responses": [
+      "Les soins à domicile (SAD) sont des services médicaux et de soutien fournis à votre domicile pour vous aider pendant votre rétablissement entre les traitements. Ils peuvent inclure des visites de professionnels de la santé, des soins infirmiers, des thérapies et un soutien émotionnel. Les SAD peuvent améliorer votre confort, votre bien-être et votre qualité de vie en vous offrant un environnement familier et un soutien personnalisé.",
+      "Les soins à domicile (SAD) sont conçus pour répondre à vos besoins individuels et vous aider à maintenir votre qualité de vie pendant les périodes entre les traitements. Ils peuvent vous fournir un soutien médical, des conseils sur la gestion des symptômes et des services de soutien émotionnel. Les SAD peuvent contribuer à votre confort et à votre bien-être tout en vous permettant de rester dans votre environnement familial.",
+      "Les soins à domicile (SAD) sont une option importante pour vous aider à maintenir votre qualité de vie pendant les périodes entre les traitements. En offrant des services médicaux et de soutien personnalisés dans votre propre environnement, les SAD peuvent contribuer à votre confort, à votre tranquillité d'esprit et à votre rétablissement. N'hésitez pas à discuter avec votre équipe médicale des options de soins à domicile qui pourraient vous convenir."
+    ]
+  }
+  ,
+  {
+    "tag": "resources_between_treatments",
+    "patterns": [
+      "Quelles sont les ressources disponibles pour les patients atteints de cancer du sang entre deux traitements, notamment en termes de soutien psychologique ?",
+      "Ressources pour patients entre traitements ?",
+      "Soutien psychologique entre traitements ?",
+      "Aide pour patients entre traitements ?"
+    ],
+    "responses": [
+      "Il existe de nombreuses ressources disponibles pour les patients atteints de cancer du sang entre deux traitements, notamment en termes de soutien psychologique. Vous pouvez bénéficier de services de counseling, de groupes de soutien, de ressources en ligne et de lignes d'assistance téléphonique. Ces ressources sont conçues pour vous fournir un soutien émotionnel et pratique pendant votre parcours de traitement.",
+      "Les patients atteints de cancer du sang ont accès à une variété de ressources pour les soutenir entre deux traitements, y compris des services de counseling, des groupes de soutien et des programmes de bien-être émotionnel. Ces ressources peuvent vous aider à faire face aux défis émotionnels et pratiques liés à votre condition et à votre traitement. N'hésitez pas à explorer les options disponibles et à rechercher le soutien dont vous avez besoin.",
+      "Il est important de savoir que vous n'êtes pas seul dans votre parcours contre le cancer du sang. De nombreuses ressources sont disponibles pour vous aider entre deux traitements, notamment en termes de soutien psychologique. Que ce soit par le biais de conseils individuels, de groupes de soutien ou d'autres programmes, il y a du soutien disponible pour vous aider à vous sentir soutenu et capable de faire face aux défis."
+    ]
+  },
+  {
+    "tag": "managing_fatigue_between_treatments",
+    "patterns": [
+      "Comment puis-je gérer la fatigue physique et morale entre deux traitements ?",
+      "Fatigue entre traitements, comment gérer ?",
+      "Stratégies pour gérer fatigue entre traitements ?",
+      "Comment gérer fatigue physique et morale ?"
+    ],
+    "responses": [
+      "La fatigue physique et morale entre les traitements peut être difficile à gérer, mais il existe des stratégies pour vous aider à faire face. Assurez-vous de vous reposer suffisamment, de maintenir une alimentation équilibrée, de rester hydraté et d'exercer des activités légères. De plus, gardez une communication ouverte avec votre équipe médicale et trouvez des moyens de vous détendre et de vous distraire pour gérer le stress et l'anxiété.",
+      "La fatigue entre les traitements peut être accablante, mais il est important de prendre soin de vous physiquement et mentalement. Écoutez votre corps, reposez-vous quand vous en avez besoin et ne vous sentez pas coupable de demander de l'aide. Utilisez des techniques de relaxation, pratiquez des activités qui vous apportent du bien-être et maintenez une attitude positive. N'oubliez pas que nous sommes là pour vous soutenir à chaque étape de votre parcours.",
+      "La fatigue physique et morale entre les traitements peut être très éprouvante, mais vous n'êtes pas seul dans cette lutte. Apprenez à écouter votre corps, à vous reposer suffisamment et à demander de l'aide lorsque vous en avez besoin. Engagez-vous dans des activités qui vous procurent du plaisir et de la détente, et entourez-vous de personnes qui vous soutiennent. Rappelez-vous que chaque petit pas que vous faites vers le bien-être compte, et nous sommes là pour vous aider à chaque étape."
+    ]
+  },
+  {
+    "tag": "recognizing_signs_for_rest",
+    "patterns": [
+      "Quels sont les signes indiquant que je devrais peut-être ralentir mon rythme de vie et prendre plus de repos ?",
+      "Signes pour prendre plus de repos ?",
+      "Quand ralentir et se reposer ?",
+      "Besoin de repos ?"
+    ],
+    "responses": [
+      "Il est important de reconnaître les signes indiquant que vous pourriez avoir besoin de ralentir votre rythme de vie et de prendre plus de repos. Ces signes peuvent inclure la fatigue persistante, la difficulté à se concentrer, l'irritabilité, les douleurs corporelles et les troubles du sommeil. Écoutez votre corps et n'hésitez pas à vous accorder du repos lorsque vous en avez besoin pour favoriser votre rétablissement.",
+      "Votre corps peut vous donner des signes subtils que vous avez besoin de ralentir et de prendre plus de repos. Soyez attentif à tout changement dans votre niveau d'énergie, votre humeur et votre bien-être général. Prendre le temps de vous reposer et de vous ressourcer peut vous aider à gérer plus efficacement les défis liés au traitement et à favoriser votre rétablissement.",
+      "Reconnaître les signes qui indiquent que vous pourriez avoir besoin de plus de repos est une étape importante pour prendre soin de vous pendant les traitements. Si vous ressentez une fatigue persistante, une diminution de la concentration ou des symptômes physiques, prenez cela comme un signe pour ralentir votre rythme de vie et accorder à votre corps le repos dont il a besoin pour se rétablir."
+    ]
+  },
+  {
+    "tag": "maintaining_wellbeing_activities",
+    "patterns": [
+      "Quelles activités puis-je continuer à faire pendant cette période pour maintenir mon moral et mon bien-être ?",
+      "Activités pour moral et bien-être ?",
+      "Maintenir le moral pendant les traitements ?",
+      "Quoi faire pour rester positif ?"
+    ],
+    "responses": [
+      "Pendant cette période, il est essentiel de trouver des activités qui vous apportent du réconfort et du bien-être. Vous pouvez envisager de pratiquer des activités relaxantes telles que la méditation, le yoga, la lecture, l'écoute de musique apaisante, la peinture ou la marche en plein air. Se connecter avec des amis et des proches, même virtuellement, peut également contribuer à maintenir votre moral et à renforcer votre réseau de soutien.",
+      "Il existe de nombreuses activités qui peuvent contribuer à maintenir votre moral et votre bien-être pendant cette période. En plus des activités physiques douces comme la marche ou le yoga, vous pourriez envisager de consacrer du temps à des passe-temps créatifs, à l'écriture dans un journal, à la pratique de la gratitude ou à l'apprentissage de nouvelles compétences en ligne. Trouvez ce qui vous apporte de la joie et du réconfort, et prenez le temps de vous engager dans ces activités régulièrement."
+    ]
+  } ,
+  {
+    "tag": "balancing_activities_rest",
+    "patterns": [
+      "Comment puis-je trouver un équilibre entre mes activités et le temps de repos nécessaire pour récupérer entre deux traitements ?",
+      "Équilibre activités-repos ?",
+      "Gérer temps de repos et activités ?",
+      "Trouver repos entre traitements ?"
+     ],
+    "responses": [
+      "Trouver un équilibre entre vos activités et le temps de repos est essentiel pour favoriser votre rétablissement. Vous pouvez envisager de planifier vos journées en incluant des périodes d'activité modérée suivies de temps de repos réguliers. Écoutez votre corps et ajustez votre emploi du temps en fonction de vos besoins. Priorisez les activités qui vous apportent le plus de réconfort et d'énergie, et n'ayez pas peur de demander de l'aide lorsque cela est nécessaire.",
+      "Il peut être difficile de trouver un équilibre entre vos activités et le temps de repos nécessaire pendant les traitements. Essayez de planifier vos journées en tenant compte de vos rendez-vous médicaux et de vos moments de repos. N'oubliez pas d'inclure des activités qui vous apportent de la joie et du bien-être, mais aussi des moments de détente et de récupération. Soyez à l'écoute de votre corps et ajustez votre emploi du temps en fonction de vos besoins.",
+      "Trouver un équilibre entre vos activités et le repos peut être un défi, mais c'est important pour votre rétablissement. Essayez de planifier des périodes d'activité légère et de repos tout au long de la journée. Écoutez les signaux de votre corps et respectez vos limites. Priorisez vos activités en fonction de ce qui vous apporte le plus de confort et de bien-être. Rappelez-vous qu'il est tout à fait normal de demander de l'aide et du soutien pendant cette période."
+    ]
+  }
+  ,
+  
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  {
+    "tag": "end_of_treatment_emotions",
+    "patterns": [
+      "J’étais très content à l’idée d’avoir terminé les traitements, mais en même temps très inquiet de changer de rythme de vie auquel j’avais eu tant de mal à me faire au début",
+      "Émotions fin des traitements ?",
+      "Changements de vie après fin traitements ?",
+      "Inquiétudes après fin des traitements ?"
+    ],
+    "responses": [
+      "La fin des traitements peut susciter un mélange d'émotions, et il est tout à fait normal de se sentir à la fois content et inquiet. C'est une période de transition importante, où vous pouvez commencer à retrouver une certaine normalité tout en vous adaptant à un nouveau rythme de vie. N'oubliez pas de vous donner le temps et l'espace nécessaires pour vous ajuster progressivement à ces changements, et n'hésitez pas à rechercher du soutien auprès de votre famille, de vos amis et de votre équipe médicale.",
+      "La transition vers la fin des traitements peut être remplie d'émotions contradictoires, allant de la joie et du soulagement à l'inquiétude et à l'incertitude. C'est une période de ajustement où vous pouvez vous sentir à la fois reconnaissant pour avoir terminé les traitements et préoccupé par les défis à venir. Rappelez-vous que vous n'êtes pas seul dans cette transition, et que vous avez un réseau de soutien prêt à vous accompagner tout au long de ce processus.",
+      "La fin des traitements marque le début d'une nouvelle phase de votre parcours de guérison. Il est normal de ressentir un mélange d'émotions, y compris la satisfaction d'avoir franchi cette étape importante ainsi que l'appréhension face à l'avenir. Soyez patient avec vous-même pendant cette période de transition et rappelez-vous que vous avez déjà surmonté de nombreux défis. Vous avez le droit de ressentir toutes ces émotions et de prendre le temps dont vous avez besoin pour vous ajuster."
+    ]
+  }, 
+  {
+    "tag": "mixed_emotions_end_treatments",
+    "patterns": [
+      "Pourquoi est-ce que je me sens à la fois joyeux et triste à la fin des traitements ?",
+      "Émotions à la fin des fin de traitements ?",
+      "Joie et tristesse après fin de  traitements ?",
+      "Confusion émotions fin traitements ?"
+    ],
+    "responses": [
+      "Il est tout à fait normal de ressentir un mélange d'émotions à la fin des traitements. C'est un moment à la fois de soulagement et de transition, où vous pouvez être heureux d'avoir terminé cette étape tout en vous sentant anxieux ou incertains quant à l'avenir. Prenez le temps de reconnaître et de comprendre vos émotions, et n'hésitez pas à partager vos sentiments avec vos proches ou un professionnel de la santé.",
+      "La fin des traitements peut susciter une gamme complexe d'émotions, allant de la joie et du soulagement à l'anxiété et à la tristesse. C'est un moment de transition où vous pouvez être confronté à de nouveaux défis et à des incertitudes quant à l'avenir. Accordez-vous de la compassion et du temps pour traiter vos émotions, et rappelez-vous que vous n'êtes pas seul dans ce voyage.",
+      "Il est tout à fait normal de ressentir des émotions contradictoires à la fin des traitements. Vous pourriez vous sentir à la fois soulagé d'avoir terminé cette étape et préoccupé par ce que l'avenir vous réserve. Prenez le temps de reconnaître et de valider vos émotions, et cherchez du soutien auprès de vos proches et de votre équipe médicale pour vous aider à traverser cette transition."
+    ]
+  },
+  {
+    "tag": "coping_loneliness_home",
+    "patterns": [
+      "Comment puis-je faire face au sentiment de solitude et de désorientation après être rentré chez moi ?",
+      "Solitude après retour à la maison ?",
+      "Désorientation post-traitement ?",
+      " Faire face à la solitude ?"
+    ],
+    "responses": [
+      " Il est important de vous entourer de soutien, que ce soit par le biais de proches, d'amis ou de groupes de soutien. Restez connecté avec les personnes qui vous sont chères, partagez vos sentiments et cherchez des activités ou des hobbies qui vous apportent du réconfort et du bien-être.",
+      "Le sentiment de solitude et de désorientation  est une réaction courante. Assurez-vous de vous entourer de soutien et de rester connecté avec vos proches. Cherchez des moyens de vous occuper et de vous distraire, que ce soit par le biais de passe-temps, de lectures ou d'activités qui vous apportent du réconfort. N'hésitez pas à demander de l'aide si vous en avez besoin, et rappelez-vous que vous n'êtes pas seul dans ce processus de guérison.",
+      "La transition vers la vie à la maison après les traitements peut être difficile, mais il existe des moyens de faire face au sentiment de solitude et de désorientation. Restez connecté avec votre réseau de soutien, partagez vos sentiments avec vos proches et cherchez des activités qui vous apportent du réconfort et du bien-être. Souvenez-vous que l'adaptation peut prendre du temps, alors soyez patient avec vous-même et accordez-vous de la compassion pendant cette période de transition."
+    ]
+  },
+  {
+    "tag": "maintaining_connection_medical_team",
+    "patterns": [
+      "Quels sont les moyens de maintenir un lien avec l'équipe médicale après avoir terminé les traitements ?",
+      "Lien avec équipe médicale post-traitements ?",
+      "Maintenir contact médical après traitement ?",
+      "Suivi médical après traitements ?"
+    ],
+    "responses": [
+      "Après avoir terminé les traitements, maintenir un lien avec votre équipe médicale peut être important pour assurer un suivi adéquat et pour répondre à toute préoccupation ou question qui pourrait survenir. Vous pouvez envisager de planifier des rendez-vous de suivi réguliers, de garder une communication ouverte par téléphone ou par courrier électronique, ou de participer à des programmes de suivi ou de surveillance à distance, selon les services proposés par votre équipe médicale.",
+      "Il est essentiel de maintenir un lien avec votre équipe médicale après avoir terminé les traitements afin de recevoir un suivi approprié et de répondre à vos besoins de santé. Vous pouvez convenir de rendez-vous de suivi réguliers, rester en contact par le biais de moyens de communication comme le téléphone ou les courriels sécurisés, ou participer à des programmes de suivi spécifiques proposés par votre centre de traitement.",
+      "Après avoir terminé les traitements, maintenir un lien avec votre équipe médicale peut vous aider à assurer un suivi continu de votre santé et à répondre à toute préoccupation éventuelle. Explorez les différentes options de communication offertes par votre centre de traitement, telles que les consultations en personne, les appels téléphoniques, les courriels ou les portails patients en ligne, pour rester connecté et recevoir le soutien dont vous avez besoin."
+    ]
+  },
+  {
+    "tag": "adapting_new_lifestyle_post_treatments",
+    "patterns": [
+      "Comment puis-je m'adapter à un nouveau rythme de vie après les traitements ?",
+      "Adaptation post-traitements ?",
+      "Nouveau rythme après traitements ?",
+      "Vie après traitements ?"
+        ],
+    "responses": [
+      "S'adapter à un nouveau rythme de vie après les traitements peut être un défi, mais il est important d'aller à votre propre rythme et de vous accorder du temps pour vous ajuster. Essayez de fixer des objectifs réalisables, établissez une routine quotidienne qui vous convient, et n'hésitez pas à demander de l'aide si nécessaire. Rappelez-vous également de prendre soin de vous et de vous accorder des moments de repos et de détente pour favoriser votre bien-être.",
+      "L'adaptation à un nouveau rythme de vie après les traitements peut prendre du temps et nécessite de la patience et de la bienveillance envers vous-même. Établissez des routines régulières qui vous aident à vous sentir plus stable et organisé, explorez de nouvelles activités qui vous passionnent et maintenez une communication ouverte avec vos proches pour obtenir le soutien dont vous avez besoin. Rappelez-vous que chaque étape de ce processus est un pas vers votre rétablissement et votre bien-être.",
+      "Après les traitements, s'adapter à un nouveau rythme de vie peut être un processus progressif. Soyez indulgent envers vous-même et donnez-vous le temps nécessaire pour vous ajuster. Identifiez les activités qui vous apportent de la joie et du confort, établissez des habitudes positives qui favorisent votre bien-être mental et physique, et entourez-vous de soutien social pour vous accompagner dans cette transition. Se donner le droit de s'adapter à son propre rythme est essentiel pour retrouver un sentiment de normalité et de contrôle dans votre vie."
+    ]
+  }
+  ,
+  {
+    "tag": "challenges_leaving_hospital",
+    "patterns": [
+      "Quels sont les défis auxquels je pourrais être confronté lorsque je quitte l'environnement hospitalier et réintègre ma vie quotidienne ?",
+      "Défis après l'hôpital ?",
+      "Retour à la maison ?",
+      "Défis de la vie quotidienne ?"
+    ],
+    "responses": [
+      "Le retour à la vie quotidienne après avoir quitté l'environnement hospitalier peut être accompagné de divers défis, mais vous n'êtes pas seul dans cette transition. Certains des défis potentiels comprennent l'adaptation à un nouvel environnement, la gestion de la fatigue et des effets secondaires persistants, la reprise des activités quotidiennes, et l'ajustement émotionnel au retour à la vie normale. N'hésitez pas à exprimer vos préoccupations à votre équipe médicale et à votre entourage, et prenez les choses à votre propre rythme.",
+      "La transition de l'environnement hospitalier à la vie quotidienne peut présenter des défis uniques, mais il est important de se rappeler que vous avez déjà surmonté d'énormes obstacles jusqu'à présent. Les défis potentiels incluent l'adaptation aux changements physiques et émotionnels, la gestion des effets secondaires résiduels, la reprise des responsabilités quotidiennes et la réintégration sociale. N'oubliez pas que vous avez un réseau de soutien prêt à vous accompagner dans cette transition et à vous aider à surmonter ces défis.",
+      "En quittant l'environnement hospitalier et en reprenant votre vie quotidienne, vous pourriez être confronté à divers défis qui nécessitent du temps, de la patience et du soutien. Parmi ces défis, on trouve l'adaptation à de nouveaux rythmes de vie, la gestion des séquelles physiques et émotionnelles des traitements, et la réintégration progressive des activités et des relations sociales. Rappelons-nous que chaque défi surmonté est une étape vers la guérison et le rétablissement, et que vous n'êtes jamais seul dans ce voyage."
+    ]
+  }
+  ,
+  {
+    "tag": "support_groups_resources",
+    "patterns": [
+      "Y a-t-il des ressources ou des groupes de soutien disponibles pour m'aider pendant cette transition ?",
+      "Ressources disponibles de soutien pour m'aider ?",
+      "Soutien après traitement ?",
+      "Groupes d'aide ?"
+    ],
+    "responses": [
+      "Absolument ! Il existe de nombreuses ressources et groupes de soutien disponibles pour vous accompagner pendant cette transition. Vous pouvez envisager de contacter votre centre médical local pour obtenir des informations sur les programmes de soutien aux patients, les groupes de soutien en ligne ou en personne, les ressources communautaires et les services de conseil. N'hésitez pas à explorer différentes options pour trouver celles qui vous conviennent le mieux.",
+      "Oui, il existe une variété de ressources et de groupes de soutien conçus spécifiquement pour aider les patients pendant leur transition vers la vie après le traitement. Vous pouvez contacter votre centre de traitement pour obtenir des recommandations sur les programmes de soutien, les groupes de discussion, les ressources en ligne et les services de conseil. Se connecter avec d'autres personnes partageant les mêmes expériences peut être extrêmement bénéfique pendant cette période de transition.",
+      "Certainement ! Il existe de nombreuses ressources et organisations dédiées à offrir un soutien pendant cette période de transition. Vous pouvez explorer des groupes de soutien locaux ou en ligne, des programmes de conseil, des ressources communautaires et des organisations caritatives spécialisées dans le soutien aux personnes touchées par le cancer. N'hésitez pas à rechercher et à vous connecter avec des personnes qui peuvent comprendre vos défis et vous offrir un soutien précieux."
+    ]
+  }
+  ,
+  {
+    "tag": "managing_emotions_end_treatment",
+    "patterns": [
+      "Comment puis-je gérer les émotions contradictoires que je ressens à la fin des traitements ?",
+      "Gestion émotions fin traitements ?",
+      "Émotions contradictoires ?", 
+      "Fin traitements, quoi faire ?"
+    ],
+    "responses": [
+      "Les émotions contradictoires à la fin des traitements sont tout à fait normales. Vous pouvez essayer de vous concentrer sur les aspects positifs de cette étape, comme la fin des traitements et le début d'une nouvelle phase de votre vie. Pratiquer des techniques de gestion du stress telles que la méditation, la respiration profonde et l'expression créative peut vous aider à naviguer à travers ces émotions. N'oubliez pas que vous n'êtes pas seul et que vous pouvez chercher du soutien auprès de votre famille, de vos amis et de professionnels de la santé."
+    ]
+  },
+  
+  
+
+
+
+
+
+
+
+
+
+  {
+    "tag": "death_or_recovery",
+    "patterns": [
+      " Est-ce que je vais mourir ?",
+      "Vais-je mourir ou guérir ?",
+      "Vie ou mort ?",
+      "quelles sont mes Chances de guérison ?",
+      "Pronostic vital ?"
+    ],
+    "responses": [
+      "Cette question est légitime et comprendre votre anxiété est essentiel. Il est difficile de prédire avec certitude l'issue de votre situation, mais je veux que vous sachiez que nous sommes ici pour vous soutenir à chaque étape de votre parcours. Nous ferons tout notre possible pour vous offrir les meilleurs soins et vous aider à trouver l'espoir et la force nécessaires pour surmonter cette épreuve.",
+      "La question de la vie et de la mort est profonde et compréhensible dans votre situation. Bien que nous ne puissions pas prédire l'avenir avec certitude, nous sommes ici pour vous accompagner avec empathie et compassion. Nous travaillerons ensemble pour vous fournir les meilleurs soins possibles et vous soutenir dans votre voyage vers la guérison.",
+      "La question de l'issue de votre traitement est complexe et souvent angoissante. Nous sommes là pour vous offrir notre soutien, notre expertise et notre engagement à vous aider à traverser cette période difficile. Ensemble, nous ferons tout notre possible pour explorer toutes les options de traitement et vous offrir le soutien émotionnel dont vous avez besoin pour naviguer à travers cette période incertaine."
+    ]
+  }
+  ,
+  {
+    "tag": "physical_pain_explanation",
+    "patterns": [
+      "Pourquoi ressens-je autant de douleur physique en raison de la maladie et des traitements ?",
+      "Pourquoi tant de douleur ?",
+      "Origine douleur physique ?",
+      "Maladie, douleur explication ?"
+    ],
+    "responses": [
+      "La douleur physique due à la maladie et aux traitements est souvent une conséquence difficile à supporter. Il est important de savoir que chaque individu réagit différemment aux traitements. La douleur peut être le résultat de divers facteurs, y compris les effets secondaires des médicaments et les changements dans votre corps. Votre équipe médicale peut vous aider à gérer la douleur et à trouver des moyens de soulager vos symptômes.",
+      "La douleur physique associée à la maladie et aux traitements est une réalité difficile à affronter. Votre corps subit des changements importants pendant cette période, ce qui peut entraîner des sensations d'inconfort et de douleur. Il est important de communiquer ouvertement avec votre équipe médicale sur vos symptômes afin qu'ils puissent vous fournir les soins et le soutien appropriés pour soulager votre douleur.",
+      "La douleur physique que vous ressentez peut être une conséquence naturelle de la maladie et des traitements. Votre corps traverse des épreuves difficiles, mais rappelez-vous que vous n'êtes pas seul dans cette lutte. Votre équipe médicale travaille en étroite collaboration avec vous pour trouver des solutions pour atténuer votre douleur et améliorer votre qualité de vie pendant cette période difficile."
+    ]
+  }
+  ,
+  {
+    "tag": "relation_physical_pain_psychological_suffering",
+    "patterns": [
+      "Comment puis-je mieux comprendre la relation entre la douleur physique et la souffrance psychologique ?",
+      "Relation douleur et souffrance ?",
+      "Liens douleur, souffrance ?", 
+      "Compréhension douleur, psychologie ?"
+    ],
+    "responses": [
+      "La relation entre la douleur physique et la souffrance psychologique est complexe et peut varier d'une personne à l'autre. La douleur physique peut souvent déclencher ou aggraver des émotions négatives telles que la tristesse, l'anxiété et la frustration. De même, la souffrance psychologique peut influencer la perception de la douleur physique. Il est important de reconnaître et de traiter à la fois la douleur physique et la souffrance psychologique pour améliorer votre bien-être global. Votre équipe médicale peut vous aider à explorer ces liens et à trouver des stratégies pour mieux gérer ces aspects de votre santé.",
+      "La relation entre la douleur physique et la souffrance psychologique est profonde et peut avoir un impact significatif sur votre bien-être. La douleur physique peut souvent entraîner des réactions émotionnelles telles que la frustration, la tristesse et l'anxiété. De même, la souffrance psychologique peut amplifier la perception de la douleur physique. Il est essentiel de prendre en compte ces interactions et de travailler avec votre équipe médicale pour développer des stratégies de gestion de la douleur et du stress qui répondent à vos besoins spécifiques.",
+      "La connexion entre la douleur physique et la souffrance psychologique est une réalité importante à explorer pendant votre parcours de traitement. La douleur physique peut avoir un impact sur votre bien-être émotionnel, et vice versa. Il est important de reconnaître cette relation et de rechercher un soutien médical et émotionnel pour mieux gérer ces aspects de votre santé. Votre équipe médicale est là pour vous aider à comprendre ces liens et à trouver des moyens de soulager votre douleur physique tout en prenant soin de votre santé mentale."
+    ]
+  }
+,  
+{
+  "tag": "reporting_pain_medical_team",
+  "patterns": [
+    "Quand devrais-je signaler ma douleur à mon équipe médicale et comment puis-je le faire efficacement ?",
+    "Signaler douleur à l'équipe médicale ?",
+   "Quand signaler douleur ?",
+  "Communiquer douleur efficacement ?"
+  ],
+  "responses": [
+    "Il est crucial de signaler toute douleur à votre équipe médicale dès qu'elle survient, surtout si elle est persistante ou si elle interfère avec votre qualité de vie. Vous pouvez le faire lors de vos consultations médicales régulières ou en utilisant les canaux de communication mis à votre disposition par votre équipe de soins, tels que les lignes téléphoniques dédiées ou les plateformes en ligne. Plus vous communiquez efficacement sur votre douleur, mieux votre équipe médicale pourra vous aider à la gérer.",
+    "Ne sous-estimez jamais l'importance de signaler votre douleur à votre équipe médicale. Même si elle semble mineure, elle peut être un indicateur de problèmes sous-jacents. Si vous ressentez de la douleur, n'hésitez pas à en parler lors de vos consultations médicales ou à contacter votre équipe de soins par les moyens de communication qu'ils vous ont fournis. Ensemble, vous pouvez travailler à trouver des moyens efficaces de gérer votre douleur et d'améliorer votre qualité de vie.",
+    "N'attendez pas pour signaler votre douleur à votre équipe médicale. Ils sont là pour vous aider à gérer tous les aspects de votre santé, y compris la douleur. Si vous ressentez une douleur qui vous préoccupe, assurez-vous d'en discuter lors de votre prochaine consultation médicale ou utilisez les canaux de communication prévus par votre équipe de soins. Plus vous communiquez sur votre douleur, plus il sera facile pour votre équipe médicale de vous aider à la gérer de manière efficace."
+  ]
+}
+,
+{
+  "tag": "pain_relief_methods",
+  "patterns": [
+    "Quels sont les moyens de soulager la douleur physique, en plus des traitements médicaux ?",
+    "Soulager douleur physique?",
+    "Autres méthodes pour soulager douleur?",  
+    "Douleur physique quelles sont les solutions?"
+  ],
+  "responses": [
+    "En plus des traitements médicaux, il existe plusieurs méthodes pour soulager la douleur physique. La relaxation, la méditation, la thérapie par la chaleur ou le froid, la physiothérapie, l'acupuncture, la massothérapie et les techniques de distraction peuvent être bénéfiques. Il est important de discuter avec votre équipe médicale pour trouver les approches qui vous conviennent le mieux et qui complètent votre plan de traitement.",
+    "Outre les traitements médicaux, il existe des moyens non pharmacologiques pour soulager la douleur physique. La relaxation, la respiration profonde, la gestion du stress, la physiothérapie, l'activité physique modérée, ainsi que des techniques telles que la méditation et la visualisation peuvent être utiles. N'oubliez pas de consulter votre équipe médicale pour explorer ces options et trouver celles qui répondent le mieux à vos besoins.",
+    "Il existe diverses méthodes de soulagement de la douleur physique en dehors des traitements médicaux traditionnels. La relaxation, la thérapie par la chaleur, les massages, la méditation, l'acupuncture et la physiothérapie sont quelques-unes des options disponibles. Il est important d'explorer ces approches avec votre équipe médicale pour développer un plan de gestion de la douleur complet et adapté à vos besoins spécifiques."
+  ]
+}
+,
+{
+  "tag": "coping_with_despair",
+  "patterns": [
+    "Comment puis-je faire face à la désespérance et au désespoir qui peuvent survenir en raison de la douleur et de la maladie ?",
+    "Faire face désespoir?",
+   "Surmonter désespoir maladie?",
+    "Douleur et désespoir comment je peut les gérer?"
+  ],
+  "responses": [
+    "Faire face à la désespérance et au désespoir causés par la douleur et la maladie peut être extrêmement difficile, mais vous n'êtes pas seul dans cette lutte. Il est essentiel de trouver un soutien émotionnel auprès de votre famille, de vos amis, et des professionnels de la santé. La pratique de techniques de relaxation, la méditation, la participation à des groupes de soutien et la recherche de moments de joie et de gratitude peuvent également aider à alléger le fardeau émotionnel. N'oubliez pas que chaque journée apporte de nouvelles opportunités de trouver du réconfort et de l'espoir."
+  ]
+}
+,
+{
+  "tag": "maintaining_hope",
+  "patterns": [
+    "Comment puis-je maintenir un certain sens de la vie et de l'espoir malgré la douleur et les difficultés ?",
+    "Maintenir espoir malgré douleur?",
+    "Garder vie malgré douleur?",
+    "comment je peut trouver d'espoir face douleur  ?"
+  ],
+  "responses": [
+    "Maintenir un certain sens de la vie et de l'espoir face à la douleur et aux difficultés est un défi, mais il est possible de trouver des sources de réconfort et d'inspiration. Il est important de se concentrer sur les moments de joie et de gratitude, même les plus petits, et de rester connecté avec vos proches, votre famille et vos amis. Trouver des activités qui vous apportent du bonheur et du sens, comme la lecture, l'écoute de musique apaisante, ou la pratique d'une activité artistique, peut également contribuer à nourrir votre esprit et votre âme."
+  ]
+}
+
+     
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+  ]
+}

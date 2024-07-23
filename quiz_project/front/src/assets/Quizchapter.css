@@ -1,0 +1,289 @@
+/* Ajout de styles pour les stickers d'encouragement et d'avertissement */
+.question-container {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.encouragement-sticker, .warning-sticker {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 8px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #fff;
+  z-index: 1;
+}
+
+.encouragement-sticker {
+  background-color: #28a745; /* Vert pour l'encouragement */
+}
+
+.warning-sticker {
+  background-color: #dc3545; /* Rouge pour l'avertissement */
+}
+
+/* Reste du CSS inchangé */
+.ChapterList {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ChapterList h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ChapterList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ChapterList li {
+  margin-bottom: 10px;
+}
+
+.ChapterList li a {
+  display: block;
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #007BFF;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.ChapterList li a:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+.QuizList {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.QuizList h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.QuizList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.QuizList li {
+  margin-bottom: 10px;
+}
+
+.QuizList li a {
+  display: block;
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #007BFF;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.QuizList li a:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.QuizList .selected {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+
+.ResultMessage {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #cac4c4;
+  text-align: center;
+}
+
+.ResultMessage p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ResultMessage a {
+  display: block;
+  font-size: 18px;
+  color: #007BFF;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.ResultMessage a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.QuestionPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.option-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px; /* Utilisation de min-width au lieu de width pour rendre le box flexible */
+  height: 80px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center; /* Centrer le texte horizontalement */
+  white-space: nowrap; /* Empêcher le texte de se retourner à la ligne */
+  overflow: hidden; /* Masquer tout texte qui dépasse */
+}
+
+.option-box.selected {
+  background-color: #0056b3;
+}
+
+.next-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #0056b3;
+}
+
+.ResultMessage {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.failure {
+  color: red;
+  font-weight: bold;
+}
+
+.ResultLink {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ResultLink:hover {
+  text-decoration: underline;
+}
+/* CSS pour désactiver un quiz */
+.disabled-link {
+  pointer-events: none; /* Empêche les clics et les événements de souris */
+  opacity: 0.6; /* Réduit l'opacité pour indiquer que le lien est désactivé */
+  cursor: not-allowed; /* Change le curseur en "non autorisé" */
+  text-decoration: none; /* Supprime le soulignement du lien désactivé */
+}
+
+
+.simulation-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 50px;
+}
+
+.simulation-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.ResultMessage {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.ResultMessage h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.ResultMessage p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.ResultMessage .encouragement {
+  font-weight: bold;
+  color: green;
+}
+
+.ResultMessage .warning {
+  font-weight: bold;
+  color: red;
+}
+
+.ResultMessage .link {
+  display: block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ResultMessage .link:hover {
+  text-decoration: underline;
+}
+.ResultLink {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #007bff; /* Couleur du lien */
+  text-decoration: none; /* Supprimer le soulignement du lien */
+  font-size: 16px; /* Taille de la police */
+}
+
+.ResultLink:hover {
+  text-decoration: underline; /* Souligner le lien au survol */
+  color: #0056b3; /* Couleur du lien au survol */
+}

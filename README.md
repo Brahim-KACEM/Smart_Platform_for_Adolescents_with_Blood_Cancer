@@ -10,4 +10,4 @@ This folder contains the code for a chatbot trained with a machine learning mode
 This folder contains the code for a template capable of analysing a patient's CBC (blood count) and providing results on their current state of health. This can help parents to analyse their child's state of health.
 
 
-Translated with DeepL.com (free version)
+

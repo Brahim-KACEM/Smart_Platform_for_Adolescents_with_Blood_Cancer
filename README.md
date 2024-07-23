@@ -1,11 +1,13 @@
-Ce projet est divisé en trois parties principales :
+This project is divided into three main parts:
 
 1. quiz_project
-Ce dossier contient le code React avec Node pour le frontend et le backend du site web. Ce site contient des quiz destinés aux adolescents atteints de cancer du sang. L'objectif est d'éduquer ces adolescents sur le cancer du sang et d'autres chapitres associés.
+This folder contains the React code with Node for the frontend and backend of the website. This site contains quizzes aimed at teenagers with blood cancer. The aim is to educate these teenagers about blood cancer and other related topics.
 
 2. chatbot
-Ce dossier contient le code d'un chatbot entraîné avec un modèle d'apprentissage automatique basé sur le bag of words. L'objectif de ce chatbot est de répondre aux questions posées par les adolescents pour les soutenir psychologiquement. Il contient également un modèle pour détecter les pensées suicidaires, la dépression et l'anxiété, et alerter les parents.
+This folder contains the code for a chatbot trained with a machine learning model based on the bag of words. The aim of this chatbot is to answer questions asked by teenagers in order to provide them with psychological support. It also contains a model for detecting suicidal thoughts, depression and anxiety, and alerting parents.
 
 3. NFS_section
-Ce dossier contient le code d'un modèle capable d'analyser la NFS (numération formule sanguine) d'un patient et de fournir des résultats sur son état de santé actuel. Cela peut aider les parents à analyser l'état de santé de leur enfant.
+This folder contains the code for a template capable of analysing a patient's CBC (blood count) and providing results on their current state of health. This can help parents to analyse their child's state of health.
 
+
+Translated with DeepL.com (free version)

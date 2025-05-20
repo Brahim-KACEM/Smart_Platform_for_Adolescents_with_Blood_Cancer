@@ -116,13 +116,4 @@ Roles:
 - All data used is anonymized and compliant with ethical standards.
 - Translations are supported (via `googletrans`) to support multilingual input.
 
-## 📧 Contact
 
-Project Authors:
-- Ecile Haoues  
-- Brahim Kacem  
-- Yassine Boujebha  
-
-Academic Supervisor:  
-**Dr. Fadoua Ouamani**  
-ENSI — Université de la Manouba
